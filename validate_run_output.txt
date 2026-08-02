@@ -1,0 +1,526 @@
+D:\Downloads\Jet\JetEngine V6.cs(3854,29): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Downloads\Jet\JetEngine.csproj]
+D:\Downloads\Jet\JetEngine V6.cs(3854,58): warning CS8625: Cannot convert null literal to non-nullable reference type. [D:\Downloads\Jet\JetEngine.csproj]
+D:\Downloads\Jet\JetEngine V6.cs(1805,24): warning CS0219: The variable 'A_n' is assigned but its value is never used [D:\Downloads\Jet\JetEngine.csproj]
+D:\Downloads\Jet\JetEngine V6.cs(3873,72): warning CS8602: Dereference of a possibly null reference. [D:\Downloads\Jet\JetEngine.csproj]
+JET ENGINE DESIGN PLATFORM — Running: jet_validate
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 0] Thrust=150000N  TSFC=40.15  T4=1750K  BPR=9.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 1] Thrust=150000N  TSFC=38.94  T4=1750K  BPR=9.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 2] Thrust=150000N  TSFC=37.80  T4=1750K  BPR=10.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 3] Thrust=150000N  TSFC=36.72  T4=1750K  BPR=10.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 4] Thrust=150000N  TSFC=35.71  T4=1750K  BPR=11.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 5] Thrust=150000N  TSFC=34.75  T4=1750K  BPR=11.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 6] Thrust=150000N  TSFC=33.84  T4=1750K  BPR=12.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 7] Thrust=150000N  TSFC=33.00  T4=1750K  BPR=12.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 8] Thrust=150000N  TSFC=32.19  T4=1750K  BPR=13.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 9] Thrust=150000N  TSFC=31.41  T4=1750K  BPR=13.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 10] Thrust=150000N  TSFC=30.67  T4=1750K  BPR=14.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 11] Thrust=150000N  TSFC=29.97  T4=1750K  BPR=14.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 12] Thrust=150000N  TSFC=29.82  T4=1750K  BPR=15.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.538  ε_cool=0.0698  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.538  ε_cool=0.0698  T45_mix=1697K
+  [Iter 13] Thrust=150000N  TSFC=29.79  T4=1750K  BPR=15.0  OPR=41.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.538  ε_cool=0.0698  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.545  ε_cool=0.0720  T45_mix=1696K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.545  ε_cool=0.0720  T45_mix=1696K
+  [Iter 14] Thrust=150000N  TSFC=29.78  T4=1750K  BPR=15.0  OPR=42.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.545  ε_cool=0.0720  T45_mix=1696K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.553  ε_cool=0.0743  T45_mix=1695K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.553  ε_cool=0.0743  T45_mix=1695K
+  [Iter 15] Thrust=150000N  TSFC=29.77  T4=1750K  BPR=15.0  OPR=43.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.553  ε_cool=0.0743  T45_mix=1695K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.561  ε_cool=0.0767  T45_mix=1693K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=1939.67kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=1939.67kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=820.7K  Pt=1562.6kPa  ṁ=121.23kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1500.1kPa  ṁ=125.70kg/s  γ=1.256  f=0.03684
+  S5 [LPT exit]: Tt=852.8K  Pt=40.4kPa  ṁ=125.70kg/s  γ=1.288  f=0.03684
+  S8 [Core nozzle exit]: Tt=852.8K  Pt=40.4kPa  ṁ=125.70kg/s  γ=1.301  f=0.03684
+  S13 [Bypass exit]: Tt=284.9K  Pt=56.3kPa  ṁ=1818.44kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=284.9K  Pt=56.3kPa  ṁ=1818.44kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=381.0K  Pt=140.8kPa  ṁ=125.70kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1374.2K  Pt=422.4kPa  ṁ=125.70kg/s  γ=1.265  f=0.03684
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              29.77 g/(kN·s)
+  Thermal η:         22.6%
+  Propulsive η:      83.7%
+  Overall η:         18.9%
+  Specific Thrust:   77.3 N·s/kg
+  Core ṁ:            121.23 kg/s
+  Bypass ṁ:          1818.44 kg/s
+  Fuel flow:         4.466 kg/s
+  Fan diameter:      5881 mm
+  Core diameter:     3529 mm
+  HPT coolant frac:  ε=0.0743  ṁ_cool=9.008 kg/s
+  HPT mixed T45:     1694.5 K
+  ⚠ WARNINGS:
+    - Fan diameter 5.88m is very large — consider geared turbofan
+    - TSFC=29.8 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1299 RPM  |  HP spool: 2435 RPM
+  Fan Rotor: r_hub=882.2mm  r_tip=2940.7mm  N_blades=181  PR=1.550  ΔT=36.6K  DeHaller=0.71  ψ=0.54  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=926.3mm  r_tip=1323.3mm  N_blades=263  PR=1.257  ΔT=21.5K  DeHaller=0.76  ψ=0.92  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=954.1mm  r_tip=1296.9mm  N_blades=263  PR=1.257  ΔT=23.1K  DeHaller=0.76  ψ=0.99  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=982.7mm  r_tip=1270.9mm  N_blades=263  PR=1.257  ΔT=24.9K  DeHaller=0.76  ψ=1.07  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1012.2mm  r_tip=1245.5mm  N_blades=263  PR=1.257  ΔT=26.7K  DeHaller=0.77  ψ=1.15  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1063.4mm  r_tip=1159.6mm  N_blades=391  PR=1.272  ΔT=30.4K  DeHaller=0.73  ψ=0.38  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1084.7mm  r_tip=1142.2mm  N_blades=391  PR=1.272  ΔT=32.8K  DeHaller=0.70  ψ=0.41  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1106.4mm  r_tip=1125.0mm  N_blades=393  PR=1.272  ΔT=35.4K  DeHaller=0.68  ψ=0.45  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1128.5mm  r_tip=1108.2mm  N_blades=393  PR=1.272  ΔT=38.3K  DeHaller=0.65  ψ=0.48  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1151.1mm  r_tip=1091.5mm  N_blades=395  PR=1.272  ΔT=41.3K  DeHaller=0.61  ψ=0.52  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1174.1mm  r_tip=1075.2mm  N_blades=395  PR=1.272  ΔT=44.6K  DeHaller=0.58  ψ=0.56  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1197.6mm  r_tip=1059.0mm  N_blades=397  PR=1.272  ΔT=48.2K  DeHaller=0.55  ψ=0.61  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1221.6mm  r_tip=1043.1mm  N_blades=399  PR=1.272  ΔT=52.0K  DeHaller=0.51  ψ=0.65  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1246.0mm  r_tip=1027.5mm  N_blades=399  PR=1.272  ΔT=56.1K  DeHaller=0.47  ψ=0.71  mat=Inconel 718
+  HPC Rotor 10: r_hub=1270.9mm  r_tip=1012.1mm  N_blades=401  PR=1.272  ΔT=60.6K  DeHaller=0.43  ψ=0.76  mat=Inconel 718
+  HPT Rotor 1: r_hub=1231.5mm  r_tip=1395.7mm  N_blades=185  PR=0.000  ΔT=-187.9K  DeHaller=0.85  ψ=2.27  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1231.5mm  r_tip=1465.5mm  N_blades=191  PR=0.000  ΔT=-187.9K  DeHaller=0.94  ψ=2.10  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1169.9mm  r_tip=1692.6mm  N_blades=153  PR=0.000  ΔT=-74.5K  DeHaller=0.78  ψ=2.53  mat=Inconel 718
+  LPT Rotor 2: r_hub=1146.5mm  r_tip=1743.4mm  N_blades=155  PR=0.000  ΔT=-74.5K  DeHaller=0.81  ψ=2.45  mat=Inconel 718
+  LPT Rotor 3: r_hub=1123.6mm  r_tip=1795.7mm  N_blades=155  PR=0.000  ΔT=-74.5K  DeHaller=0.84  ψ=2.38  mat=Inconel 718
+  LPT Rotor 4: r_hub=1101.1mm  r_tip=1849.5mm  N_blades=157  PR=0.000  ΔT=-74.5K  DeHaller=0.88  ψ=2.30  mat=Inconel 718
+  LPT Rotor 5: r_hub=1079.1mm  r_tip=1905.0mm  N_blades=159  PR=0.000  ΔT=-74.5K  DeHaller=0.91  ψ=2.23  mat=Inconel 718
+  LPT Rotor 6: r_hub=1057.5mm  r_tip=1962.2mm  N_blades=161  PR=0.000  ΔT=-74.5K  DeHaller=0.94  ψ=2.16  mat=Inconel 718
+  LPT Rotor 7: r_hub=1036.4mm  r_tip=2021.1mm  N_blades=163  PR=0.000  ΔT=-74.5K  DeHaller=0.97  ψ=2.08  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=10 HPT=2 LPT=7
+  Engine length: 2042 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.469  DeH=0.710  ψ=0.54  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.771  ✓ subsonic tip
+  LPC Rotor 1: DF=0.465  DeH=0.764  ψ=0.92  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.736  ✓ subsonic tip
+  LPC Rotor 2: DF=0.485  DeH=0.762  ψ=0.99  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.703  ✓ subsonic tip
+  LPC Rotor 3: DF=0.503  DeH=0.763  ψ=1.07  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.671  ✓ subsonic tip
+  LPC Rotor 4: DF=0.520  DeH=0.767  ψ=1.15  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.881  ✓ subsonic tip
+  HPC Rotor 1: DF=0.392  DeH=0.728  ψ=0.38  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.832  ✓ subsonic tip
+  HPC Rotor 2: DF=0.433  DeH=0.703  ψ=0.41  φ=0.55  ✓
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.785  ✓ subsonic tip
+  HPC Rotor 3: DF=0.478  DeH=0.676  ψ=0.45  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.741  ✓ subsonic tip
+  HPC Rotor 4: DF=0.529  DeH=0.646  ψ=0.48  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.700  ✓ subsonic tip
+  HPC Rotor 5: DF=0.584  DeH=0.615  ψ=0.52  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.661  ✓ subsonic tip
+  HPC Rotor 6: DF=0.646  DeH=0.581  ψ=0.56  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.624  ✓ subsonic tip
+  HPC Rotor 7: DF=0.714  DeH=0.546  ψ=0.61  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.589  ✓ subsonic tip
+  HPC Rotor 8: DF=0.789  DeH=0.508  ψ=0.65  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.555  ✓ subsonic tip
+  HPC Rotor 9: DF=0.874  DeH=0.469  ψ=0.71  φ=0.41  ✗
+  HPC Rotor 10 tip: U=258.1m/s  M1r=0.524  ✓ subsonic tip
+  HPC Rotor 10: DF=0.967  DeH=0.429  ψ=0.76  φ=0.40  ✗
+  HPT Rotor 1 tip: U=356.0m/s  M1r=0.532  ✓ subsonic tip
+  HPT Rotor 1: DF=1.012  DeH=0.847  ψ=2.27  φ=0.75  ✗
+  HPT Rotor 2 tip: U=373.8m/s  M1r=0.582  ✓ subsonic tip
+  HPT Rotor 2: DF=0.944  DeH=0.940  ψ=2.10  φ=0.73  ✗
+  LPT Rotor 1 tip: U=230.2m/s  M1r=0.421  ✓ subsonic tip
+  LPT Rotor 1: DF=1.027  DeH=0.780  ψ=2.53  φ=1.03  ✗
+  LPT Rotor 2 tip: U=237.1m/s  M1r=0.449  ✓ subsonic tip
+  LPT Rotor 2: DF=0.912  DeH=0.812  ψ=2.45  φ=1.07  ✗
+  LPT Rotor 3 tip: U=244.3m/s  M1r=0.480  ✓ subsonic tip
+  LPT Rotor 3: DF=0.819  DeH=0.844  ψ=2.38  φ=1.11  ✗
+  LPT Rotor 4 tip: U=251.6m/s  M1r=0.514  ✓ subsonic tip
+  LPT Rotor 4: DF=0.726  DeH=0.876  ψ=2.30  φ=1.15  ✗
+  LPT Rotor 5 tip: U=259.1m/s  M1r=0.550  ✓ subsonic tip
+  LPT Rotor 5: DF=0.643  DeH=0.908  ψ=2.23  φ=1.18  ✗
+  LPT Rotor 6 tip: U=266.9m/s  M1r=0.591  ✓ subsonic tip
+  LPT Rotor 6: DF=0.566  DeH=0.939  ψ=2.16  φ=1.22  ✗
+  LPT Rotor 7 tip: U=274.9m/s  M1r=0.635  ✓ subsonic tip
+  LPT Rotor 7: DF=0.495  DeH=0.968  ψ=2.08  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3B: COMBUSTOR DESIGN
+════════════════════════════════════════════════════════
+  Combustor L=706mm  R_out=1316mm
+  Injectors: 188
+  Pattern Factor: 0.086  ✓
+  Combustion η: 0.9315  ✗ FAIL
+  NOx EI: 32.9 g/kg  ✓
+  CO EI:  0.0 g/kg
+  Liner: Hastelloy X + TBC
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 4A: THERMOSTRUCTURAL ANALYSIS
+════════════════════════════════════════════════════════
+  Fan Rotor: σ_cent=323  σ_bend=489  σ_th=16  σ_VM=812MPa  σ_y=880  SF=1.08  Creep=1000000h  ✗
+  LPC Rotor 1: σ_cent=37  σ_bend=73  σ_th=9  σ_VM=110MPa  σ_y=880  SF=7.99  Creep=1000000h  ✓
+  LPC Rotor 2: σ_cent=32  σ_bend=63  σ_th=10  σ_VM=95MPa  σ_y=880  SF=9.23  Creep=1000000h  ✓
+  LPC Rotor 3: σ_cent=27  σ_bend=53  σ_th=10  σ_VM=81MPa  σ_y=880  SF=10.93  Creep=1000000h  ✓
+  LPC Rotor 4: σ_cent=22  σ_bend=43  σ_th=11  σ_VM=66MPa  σ_y=880  SF=13.39  Creep=1000000h  ✓
+  HPC Rotor 1: σ_cent=31  σ_bend=62  σ_th=13  σ_VM=93MPa  σ_y=700  SF=7.51  Creep=1000000h  ✓
+  HPC Rotor 2: σ_cent=18  σ_bend=37  σ_th=13  σ_VM=57MPa  σ_y=700  SF=12.30  Creep=1000000h  ✓
+  HPC Rotor 3: σ_cent=6  σ_bend=12  σ_th=14  σ_VM=23MPa  σ_y=700  SF=30.47  Creep=1000000h  ✓
+  HPC Rotor 4: σ_cent=-7  σ_bend=-47  σ_th=15  σ_VM=55MPa  σ_y=700  SF=12.66  Creep=1000000h  ✓
+  HPC Rotor 5: σ_cent=-19  σ_bend=-169  σ_th=16  σ_VM=189MPa  σ_y=700  SF=3.71  Creep=1000000h  ✓
+  HPC Rotor 6: σ_cent=-32  σ_bend=-351  σ_th=17  σ_VM=383MPa  σ_y=400  SF=1.04  Creep=1000000h  ✗
+  HPC Rotor 7: σ_cent=-45  σ_bend=-617  σ_th=18  σ_VM=662MPa  σ_y=400  SF=0.60  Creep=1000000h  ✗
+  HPC Rotor 8: σ_cent=-58  σ_bend=-1006  σ_th=19  σ_VM=1065MPa  σ_y=400  SF=0.38  Creep=1000000h  ✗
+  HPC Rotor 9: σ_cent=-132  σ_bend=-1584  σ_th=56  σ_VM=1717MPa  σ_y=800  SF=0.47  Creep=1000000h  ✗
+  HPC Rotor 10: σ_cent=-157  σ_bend=-2425  σ_th=60  σ_VM=2583MPa  σ_y=800  SF=0.31  Creep=1000000h  ✗
+  HPT Rotor 1: σ_cent=122  σ_bend=117  σ_th=93  σ_VM=257MPa  σ_y=150  SF=0.58  Creep=1000000h  ✗
+  HPT Rotor 2: σ_cent=179  σ_bend=153  σ_th=98  σ_VM=346MPa  σ_y=150  SF=0.43  Creep=1000000h  ✗
+  LPT Rotor 1: σ_cent=113  σ_bend=227  σ_th=61  σ_VM=345MPa  σ_y=200  SF=0.58  Creep=1000000h  ✗
+  LPT Rotor 2: σ_cent=131  σ_bend=261  σ_th=62  σ_VM=397MPa  σ_y=200  SF=0.50  Creep=1000000h  ✗
+  LPT Rotor 3: σ_cent=149  σ_bend=297  σ_th=64  σ_VM=450MPa  σ_y=200  SF=0.44  Creep=1000000h  ✗
+  LPT Rotor 4: σ_cent=167  σ_bend=335  σ_th=65  σ_VM=506MPa  σ_y=200  SF=0.40  Creep=1000000h  ✗
+  LPT Rotor 5: σ_cent=187  σ_bend=373  σ_th=67  σ_VM=564MPa  σ_y=200  SF=0.35  Creep=1000000h  ✗
+  LPT Rotor 6: σ_cent=207  σ_bend=409  σ_th=68  σ_VM=620MPa  σ_y=500  SF=0.81  Creep=1000000h  ✗
+  LPT Rotor 7: σ_cent=123  σ_bend=247  σ_th=25  σ_VM=371MPa  σ_y=400  SF=1.08  Creep=1000000h  ✗
+════════════════════════════════════════════════════════
+  Rotordynamics [HP]:
+    ω_T1=11449RPM  ω_fw=11836RPM  ω_bw=11062RPM  ω_2nd=45797RPM
+    Operating=2435RPM  Margins: fw=386.0%  bw=354.2%  2nd=1780.4%  ✓
+  Rotordynamics [LP]:
+    ω_T1=1697RPM  ω_fw=3105RPM  ω_bw=679RPM  ω_2nd=6789RPM
+    Operating=1299RPM  Margins: fw=139.1%  bw=47.7%  2nd=422.7%  ✓
+════════════════════════════════════════════════════════
+  GATE 6: DMLS MANUFACTURING VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor: wall=3.20mm  stagger=41.6°  ✓
+  LPC Rotor 1: wall=2.10mm  stagger=22.1°  ✓
+  LPC Rotor 2: wall=2.10mm  stagger=20.4°  ✓
+  LPC Rotor 3: wall=2.10mm  stagger=18.6°  ✓
+  LPC Rotor 4: wall=2.10mm  stagger=16.7°  ✓
+  HPC Rotor 1: wall=1.50mm  stagger=54.0°  ⚠
+  HPC Rotor 2: wall=1.44mm  stagger=54.2°  ⚠
+  HPC Rotor 3: wall=1.38mm  stagger=54.3°  ⚠
+  HPC Rotor 4: wall=1.32mm  stagger=54.3°  ⚠
+  HPC Rotor 5: wall=1.26mm  stagger=54.1°  ⚠
+  HPC Rotor 6: wall=1.20mm  stagger=53.9°  ⚠
+  HPC Rotor 7: wall=1.14mm  stagger=53.4°  ⚠
+  HPC Rotor 8: wall=1.08mm  stagger=52.6°  ⚠
+  HPC Rotor 9: wall=1.02mm  stagger=51.5°  ⚠
+  HPC Rotor 10: wall=0.96mm  stagger=49.8°  ⚠
+  HPT Rotor 1: wall=6.00mm  stagger=3.2°  ✓
+  HPT Rotor 2: wall=6.00mm  stagger=1.2°  ✓
+  LPT Rotor 1: wall=3.00mm  stagger=5.9°  ✓
+  LPT Rotor 2: wall=3.30mm  stagger=5.3°  ✓
+  LPT Rotor 3: wall=3.60mm  stagger=4.6°  ✓
+  LPT Rotor 4: wall=3.90mm  stagger=3.8°  ✓
+  LPT Rotor 5: wall=4.20mm  stagger=2.9°  ✓
+  LPT Rotor 6: wall=4.50mm  stagger=2.1°  ✓
+  LPT Rotor 7: wall=4.80mm  stagger=1.1°  ✓
+  HPT Rotor 1: internal cooling channels — needs powder removal validation
+  HPT Rotor 2: internal cooling channels — needs powder removal validation
+  Manufacturing check: 10 ISSUES ✗
+    ⚠ HPC Rotor 1: stagger 54.0° > 45° needs support structures
+    ⚠ HPC Rotor 2: stagger 54.2° > 45° needs support structures
+    ⚠ HPC Rotor 3: stagger 54.3° > 45° needs support structures
+    ⚠ HPC Rotor 4: stagger 54.3° > 45° needs support structures
+    ⚠ HPC Rotor 5: stagger 54.1° > 45° needs support structures
+    ⚠ HPC Rotor 6: stagger 53.9° > 45° needs support structures
+    ⚠ HPC Rotor 7: stagger 53.4° > 45° needs support structures
+    ⚠ HPC Rotor 8: stagger 52.6° > 45° needs support structures
+    ⚠ HPC Rotor 9: stagger 51.5° > 45° needs support structures
+    ⚠ HPC Rotor 10: stagger 49.8° > 45° needs support structures
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GAP 4: AXIAL SHAFT THRUST BALANCING
+════════════════════════════════════════════════════════
+  HP spool: F_comp=-1541.3kN  F_turb=1573.5kN  F_net=-3114.8kN  F_piston=2378.7kN  F_bearing=5493.5kN  ✗ BEARING OVERLOAD
+  LP spool: F_comp=673.5kN  F_turb=2340.9kN  F_net=-1667.4kN  F_piston=1508.9kN  F_bearing=3176.3kN  ✗ BEARING OVERLOAD
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  POWER TAKE-OFF (PTO) & ACCESSORY DRIVE SIZING
+════════════════════════════════════════════════════════
+  HP Spool Extract: 100.0 kW  |  Torque=392.1 Nm
+  Tower Shaft Diameter: 20.0 mm  (allowable=12 mm)  ✓
+  Whirl Speed: 62 Hz vs Redline=41 Hz  (margin=52.5% vs 20% target)  ✓
+  Spiral Bevel Gears: D1=80.0mm  D2=53.3mm  Ft=9802 N
+  Spline wear life: 1461276 hours  (limit=20000 hrs)  ✓
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GAP 5: COMBUSTOR DIFFUSER DESIGN
+════════════════════════════════════════════════════════
+  HPC exit V3=60.0 m/s  AR=3.00  V_ref=20.0 m/s (target 20)
+  ΔP_diff=1.0 kPa  (0.06% of P3)  L_diff=NaN mm
+  Flame blowout risk: ✓ NO  Separation risk: ✓ NO
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3E: ANTI-ICING BLEED PENALTY
+════════════════════════════════════════════════════════
+  OAT=-56.5°C  Alt=10668m  Icing=False
+  Bleed: f=0.50%  ṁ=0.606 kg/s  Δh=533.7 kW
+  Thrust penalty: -525 N  TSFC penalty: 0.25%
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 4D: GEARBOX LUBE OIL THERMAL BALANCE
+════════════════════════════════════════════════════════
+  Q_gear=497.7 kW  ṁ_oil=2.15 kg/s
+  T_oil_in=70°C  T_oil_out=180°C  ✓
+  ACOC: 348.4 kW  FCOC: 149.3 kW
+════════════════════════════════════════════════════════
+  [Gate 5C] Spool Transient: HP Spool
+    I=1853.3 kg·m²  t_acc=60.0s  SM_min=10.0%  VSV_Δθ=0.0°  ✓
+  [Gate 5C] Spool Transient: LP Spool
+    I=1157.5 kg·m²  t_acc=22.9s  SM_min=10.0%  VSV_Δθ=0.0°  ✓
+════════════════════════════════════════════════════════
+  GATE 5E: THRUST REVERSER & LANDING DECELERATION (VPF)
+════════════════════════════════════════════════════════
+  VPF Transient Reversal: Travel=1.09s  Reattach=0.62s  Total=1.71s
+  Core Inlet Recovery in Rev: 62.5%
+  Stall Fatigue Damage: 3.33E-008% per cycle (Blade Life=3000877927 landings)
+  Reverse thrust: 102.6 kN  Brake force: 293.5 kN  a=5.28 m/s²
+  Stopping dist: 481m (1579ft)  ✓
+  Brake T_max: 2091°C  ✓
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  NAVIER-STOKES CFD (MacCormack 2D, Baldwin-Lomax turb.)
+════════════════════════════════════════════════════════
+  Fan Rotor:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPC Rotor 1:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPC Rotor 2:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPC Rotor 3:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPC Rotor 4:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 1:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 2:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 3:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 4:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 5:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 6:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 7:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 8:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 9:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPC Rotor 10:   CFD (30×15): M_peak=0.272  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPT Rotor 1:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  HPT Rotor 2:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 1:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 2:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 3:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 4:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 5:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 6:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+  LPT Rotor 7:   CFD (30×15): M_peak=0.279  Pt_rec=NaN  Shock=False(ΔPt=0.0000)  CL=NaN  CD=NaN  Conv=False
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  3D FEA (CST elements, Zienkiewicz & Taylor)
+════════════════════════════════════════════════════════
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA Fan Rotor: σ_VM_max=4728.3MPa  δ_max=2.227mm  Burst=576rpm  SF=0.20  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPC Rotor 1: σ_VM_max=10910.1MPa  δ_max=0.422mm  Burst=379rpm  SF=0.09  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPC Rotor 2: σ_VM_max=10902.1MPa  δ_max=0.364mm  Burst=379rpm  SF=0.09  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPC Rotor 3: σ_VM_max=10893.4MPa  δ_max=0.306mm  Burst=380rpm  SF=0.09  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPC Rotor 4: σ_VM_max=10883.9MPa  δ_max=0.247mm  Burst=380rpm  SF=0.09  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 1: σ_VM_max=15146.0MPa  δ_max=0.102mm  Burst=603rpm  SF=0.06  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 2: σ_VM_max=15742.8MPa  δ_max=0.061mm  Burst=592rpm  SF=0.06  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 3: σ_VM_max=16389.3MPa  δ_max=0.020mm  Burst=580rpm  SF=0.06  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 4: σ_VM_max=675.5MPa  δ_max=0.000mm  Burst=2858rpm  SF=1.38  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 5: σ_VM_max=680.9MPa  δ_max=0.000mm  Burst=2846rpm  SF=1.37  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 6: σ_VM_max=686.8MPa  δ_max=0.000mm  Burst=2834rpm  SF=1.35  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 7: σ_VM_max=693.2MPa  δ_max=0.000mm  Burst=2821rpm  SF=1.34  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 8: σ_VM_max=700.0MPa  δ_max=0.000mm  Burst=2807rpm  SF=1.33  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 9: σ_VM_max=707.4MPa  δ_max=0.000mm  Burst=2792rpm  SF=1.31  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPC Rotor 10: σ_VM_max=715.4MPa  δ_max=0.000mm  Burst=2777rpm  SF=1.30  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPT Rotor 1: σ_VM_max=14258.6MPa  δ_max=0.263mm  Burst=540rpm  SF=0.05  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA HPT Rotor 2: σ_VM_max=14295.3MPa  δ_max=0.375mm  Burst=539rpm  SF=0.05  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 1: σ_VM_max=11528.0MPa  δ_max=0.838mm  Burst=363rpm  SF=0.08  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 2: σ_VM_max=10481.4MPa  δ_max=0.957mm  Burst=381rpm  SF=0.09  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 3: σ_VM_max=9608.4MPa  δ_max=1.078mm  Burst=398rpm  SF=0.09  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 4: σ_VM_max=8869.0MPa  δ_max=1.201mm  Burst=414rpm  SF=0.10  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 5: σ_VM_max=8234.4MPa  δ_max=1.326mm  Burst=429rpm  SF=0.11  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 6: σ_VM_max=7683.7MPa  δ_max=1.453mm  Burst=445rpm  SF=0.12  ✗
+═══ HPT COOLING (Baldauf/Dittus-Boelter/Martin) ═══
+  η_f=0.200 h_int=1179W/m²K T_wall=1588K TBC=True
+  FEA LPT Rotor 7: σ_VM_max=4752.1MPa  δ_max=1.049mm  Burst=575rpm  SF=0.20  ✗
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  LCF / TMF (Manson-Coffin-Basquin + Halford)
+════════════════════════════════════════════════════════
+  HPT Rotor 1[CMSX-4]: Δε=1.94E-002  Nf_LCF=372  Nf_TMF=249  D/cyc=4.02E-003  ✗
+  HPT Rotor 2[CMSX-4]: Δε=1.95E-002  Nf_LCF=367  Nf_TMF=245  D/cyc=4.09E-003  ✗
+  LPT Rotor 1[Rene-N5]: Δε=1.91E-002  Nf_LCF=424  Nf_TMF=291  D/cyc=3.44E-003  ✗
+  LPT Rotor 2[Rene-N5]: Δε=1.91E-002  Nf_LCF=422  Nf_TMF=290  D/cyc=3.45E-003  ✗
+  LPT Rotor 3[Rene-N5]: Δε=1.91E-002  Nf_LCF=421  Nf_TMF=288  D/cyc=3.47E-003  ✗
+  LPT Rotor 4[IN718]: Δε=1.26E-002  Nf_LCF=879  Nf_TMF=677  D/cyc=1.48E-003  ✗
+  LPT Rotor 5[IN718]: Δε=1.26E-002  Nf_LCF=878  Nf_TMF=676  D/cyc=1.48E-003  ✗
+  LPT Rotor 6[IN718]: Δε=1.26E-002  Nf_LCF=876  Nf_TMF=674  D/cyc=1.48E-003  ✗
+  LPT Rotor 7[IN718]: Δε=1.26E-002  Nf_LCF=875  Nf_TMF=673  D/cyc=1.49E-003  ✗
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  COMBUSTOR ACOUSTICS (Rayleigh/Rijke/Crocco criterion)
+════════════════════════════════════════════════════════
+  f_1L=572Hz  f_1T=198Hz  c_comb=808m/s
+  σ_growth=0.00/s  ζ_liner=2.55/s  η_stab=26098.376
+  Status: ✓ STABLE (worst mode: 1T tangential)
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  CERTIFICATION PHYSICS (FAA Part 33 / EASA CS-E)
+════════════════════════════════════════════════════════
+  FBO: F_ub=41.3kN  σ_casing=0.1MPa  ✓ < 300MPa
+  Bird: E_impact=10820J  U_blade=12J  ✗
+  Ice: ṁ_ice=9698.4g/s  ✓
+  Disc burst: N_burst=3846rpm  Limit=2923rpm  ✓
+  Hail: E=21827.93mJ  ✓
+  Ash erosion: Ė=2430000.000nm/s  ✗
+  Certification: 4/6 hazards passed
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  ADJOINT GRADIENT OPTIMIZATION (PhysicsNeMo backprop)
+  ∂L/∂X = ∂TSFC/∂X + λ·∂W/∂X  [gradient descent]
+════════════════════════════════════════════════════════
+  Step 00: BPR=15.00  OPR=43.0  FPR=1.55  TSFC=-14314441981522441679282444799620560563672789953958896159465100102245656911894897280993276144386048.00  W=-240251kg  L=-14314441981522441679282444799620560563672789953958896159465100102245656911894897280993276144386048.0000  ∇BPR=-125803887169394106518355198542930382610684325803135764863211432580607121686121161725925445265784832.0000
+  Step 05: BPR=15.00  OPR=42.8  FPR=1.55  TSFC=-14314441981522441679282444799620560563672789953958896159465100102245656911894897280993276144386048.00  W=-240251kg  L=-14314441981522441679282444799620560563672789953958896159465100102245656911894897280993276144386048.0000  ∇BPR=-125803887169394106518355198542930382610684325803135764863211432580607121686121161725925445265784832.0000
+  OPTIMAL: BPR=15.00  OPR=43.0  FPR=1.55  L=-14314441981522441679282444799620560563672789953958896159465100102245656911894897280993276144386048.0000
+════════════════════════════════════════════════════════
+═══ KACKER-OKAPUU LOSS MODEL (1982 ASME J. Eng. Power) ═══
+  HPT Rotor 1: Y_p=0.0457 Y_s=0.0109 Y_cl=0.0014 Y_te=0.0118 Y_sh=0.0047 → Y_tot=0.0698  η_tt=92.61%
+  HPT Rotor 2: Y_p=0.0458 Y_s=0.0077 Y_cl=0.0010 Y_te=0.0118 Y_sh=0.0049 → Y_tot=0.0663  η_tt=92.98%
+  LPT Rotor 1: Y_p=0.0141 Y_s=0.0043 Y_cl=0.0005 Y_te=0.0118 Y_sh=0.0055 → Y_tot=0.0306  η_tt=96.75%
+  LPT Rotor 2: Y_p=0.0142 Y_s=0.0041 Y_cl=0.0004 Y_te=0.0118 Y_sh=0.0056 → Y_tot=0.0306  η_tt=96.76%
+  LPT Rotor 3: Y_p=0.0144 Y_s=0.0040 Y_cl=0.0004 Y_te=0.0118 Y_sh=0.0058 → Y_tot=0.0306  η_tt=96.76%
+  LPT Rotor 4: Y_p=0.0095 Y_s=0.0040 Y_cl=0.0004 Y_te=0.0118 Y_sh=0.0000 → Y_tot=0.0257  η_tt=97.28%
+  LPT Rotor 5: Y_p=0.0095 Y_s=0.0039 Y_cl=0.0003 Y_te=0.0118 Y_sh=0.0000 → Y_tot=0.0256  η_tt=97.29%
+  LPT Rotor 6: Y_p=0.0095 Y_s=0.0038 Y_cl=0.0003 Y_te=0.0118 Y_sh=0.0000 → Y_tot=0.0255  η_tt=97.30%
+  LPT Rotor 7: Y_p=0.0095 Y_s=0.0037 Y_cl=0.0003 Y_te=0.0118 Y_sh=0.0000 → Y_tot=0.0254  η_tt=97.31%
+════════════════════════════════════════════════════════
+  Fan Rotor blade sections (PyTurbo-Aero parameterization):
+  Section    r(mm)  chord(mm)  stagger°  camber°    t/c  r_LE(mm)  sweep  lean
+  Hub        882.2      92.00      -0.6     40.0  0.052     0.274   -0.0  -1.0
+  Mean      1911.5      86.00      -0.7     32.0  0.050     0.237   -2.5  -0.0
+  Tip       2940.7      80.00      -0.8     24.0  0.050     0.220   -5.0   1.0
+  LPC Rotor 1 blade sections (PyTurbo-Aero parameterization):
+  Section    r(mm)  chord(mm)  stagger°  camber°    t/c  r_LE(mm)  sweep  lean
+  Hub        926.3      40.25      -0.3     40.0  0.078     0.270   -0.0  -1.0
+  Mean      1124.8      37.62      -0.4     32.0  0.060     0.149   -2.5   0.0
+  Tip       1323.3      35.00      -0.4     24.0  0.050     0.096   -5.0   1.0
+  LPC Rotor 2 blade sections (PyTurbo-Aero parameterization):
+  Section    r(mm)  chord(mm)  stagger°  camber°    t/c  r_LE(mm)  sweep  lean
+  Hub        954.1      40.25      -0.3     40.0  0.078     0.270   -0.0  -1.0
+  Mean      1125.5      37.62      -0.4     32.0  0.060     0.149   -2.5   0.0
+  Tip       1296.9      35.00      -0.4     24.0  0.050     0.096   -5.0   1.0
+  LPC Rotor 3 blade sections (PyTurbo-Aero parameterization):
+  Section    r(mm)  chord(mm)  stagger°  camber°    t/c  r_LE(mm)  sweep  lean
+  Hub        982.7      40.25      -0.3     40.0  0.078     0.270   -0.0  -1.0
+  Mean      1126.8      37.62      -0.3     32.0  0.060     0.149   -2.5   0.0
+  Tip       1270.9      35.00      -0.4     24.0  0.050     0.096   -5.0   1.0
+════════════════════════════════════════════════════════
+  NPSS-STYLE OFF-DESIGN COMPONENT MATCHING (Flight Envelope)
+════════════════════════════════════════════════════════
+  [Cooling] T_gas_rel=1339K  T_metal=1250K  η_cool=0.314  ε_cool=0.0275  T45_mix=1561K
+  [Takeoff SL] Alt=0m M=0.20 Tt2=290.5K Pt2=104.2kPa PR_fan=1.554 F=45.0kN TSFC=NaN ΔSFC=NaN%
+  [Cooling] T_gas_rel=1338K  T_metal=1250K  η_cool=0.275  ε_cool=0.0228  T45_mix=1562K
+  [Climb 10kft] Alt=3000m M=0.50 Tt2=282.1K Pt2=83.2kPa PR_fan=1.538 F=45.0kN TSFC=NaN ΔSFC=NaN%
+  [Cooling] T_gas_rel=1336K  T_metal=1250K  η_cool=0.226  ε_cool=0.0175  T45_mix=1561K
+  [Mid-climb 25kft] Alt=7620m M=0.78 Tt2=267.7K Pt2=56.2kPa PR_fan=1.511 F=45.0kN TSFC=NaN ΔSFC=NaN%
+  [Cooling] T_gas_rel=1333K  T_metal=1250K  η_cool=0.180  ε_cool=0.0132  T45_mix=1560K
+  [Cruise 35kft] Alt=10668m M=0.82 Tt2=248.2K Pt2=37.1kPa PR_fan=1.474 F=45.0kN TSFC=27.00 ΔSFC=-91%
+  [Cooling] T_gas_rel=1333K  T_metal=1250K  η_cool=0.180  ε_cool=0.0132  T45_mix=1560K
+  [Top of climb 41kft] Alt=12500m M=0.85 Tt2=248.0K Pt2=28.7kPa PR_fan=1.473 F=45.0kN TSFC=29.93 ΔSFC=+11%
+  [Cooling] T_gas_rel=1337K  T_metal=1250K  η_cool=0.245  ε_cool=0.0195  T45_mix=1562K
+  [Descent 16kft] Alt=5000m M=0.60 Tt2=274.1K Pt2=68.9kPa PR_fan=1.523 F=45.0kN TSFC=NaN ΔSFC=NaN%
+  [Cooling] T_gas_rel=1339K  T_metal=1250K  η_cool=0.302  ε_cool=0.0260  T45_mix=1561K
+  [Idle SL] Alt=0m M=0.00 Tt2=288.1K Pt2=101.3kPa PR_fan=1.550 F=45.0kN TSFC=NaN ΔSFC=NaN%
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  NASA ROTOR 37 VALIDATION BENCHMARK (Reid & Moore 1978)
+  Target: PR, η, ṁ errors < 3% vs experimental data
+════════════════════════════════════════════════════════
+  Reference (experimental): PR=2.106  η=0.877  ṁ=20.19kg/s
+  Predicted (mean-line):    PR=1.800  η=0.878  ṁ=20.09kg/s
+  Errors:  ΔPR=14.53%✗  Δη=0.14%✓  Δṁ=0.50%✓
+  Tip relative Mach: 1.416 (ref 1.48)  U_tip=454.0m/s  Va=161.7m/s
+  Validation: ✗ FAILED — refine loss model or throughflow
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  NACELLE INSTALLATION DRAG (Mattingly / NASA CR-168219)
+════════════════════════════════════════════════════════
+  F_gross=157.50kN  D_spill=215023N  D_boattail=7N
+  F_installed=-57.53kN  TSFC_installed=4466065.34g/(kN·s)  ΔTSFC=+149999002%
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  DIGITAL TWIN — ENGINE HEALTH MONITORING
+════════════════════════════════════════════════════════
+  FH=0h  FC=0  RUL=0h
+  ΔT45=+0.0K  ΔWf=+01%  ΔN1=+01%  Vib=0.5mm/s
+  Fan η=0.9100  HPC η=0.8800  Creep consumed=0.0%
+  Status: 🟢 HEALTHY
+  Saved: engine_health_report.csv
+════════════════════════════════════════════════════════

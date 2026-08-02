@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\lib\SAM26_V2\PicoGK-main\PicoGK.csproj" />
+    <ProjectReference Include="..\lib\SAM26_V2\LEAP71_ShapeKernel-main\ShapeKernel\Leap71.ShapeKernel.csproj" />
+    <ProjectReference Include="..\lib\SAM26_V2\LEAP71_LatticeLibrary-main\LatticeLibrary\Leap71.LatticeLibrary.csproj" />
+    <ProjectReference Include="..\lib\SAM26_V2\LEAP71_QuasiCrystals-main\QuasiCrystal\Leap71.QuasiCrystals.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Legacy\**" />
+    <Compile Remove="Systems\Rotordynamics.cs" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

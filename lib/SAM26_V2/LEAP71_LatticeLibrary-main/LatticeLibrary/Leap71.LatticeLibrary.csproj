@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Leap71.LatticeLibrary</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\PicoGK-main\PicoGK.csproj" />
+    <ProjectReference Include="..\..\LEAP71_ShapeKernel-main\ShapeKernel\Leap71.ShapeKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Examples\**\*.cs" />
+    <Compile Include="..\ImplicitLibrary\**\*.cs" />
+  </ItemGroup>
+
+</Project>

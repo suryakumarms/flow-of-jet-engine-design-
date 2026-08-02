@@ -1,0 +1,1303 @@
+﻿JET ENGINE V3 ΓÇö 3D MDAO PLATFORM ΓÇö Running: jet_design
+  GitHub: suryakumarms/flow-of-jet-engine-design-
+  Version: V3 (3D Katsanis + Timoshenko + PSR + EPNL + SPH)
+  Using default mission (no mission_inputs.json found)
+ΓòöΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòù
+Γòæ  CLOSED-LOOP JET ENGINE DESIGN ΓÇö MDAO PLATFORM START Γòæ
+ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 1 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  0] F=150000N  TSFC=40.95  T4=1750K  BPR=9.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  1] F=150000N  TSFC=39.69  T4=1750K  BPR=9.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  2] F=150000N  TSFC=38.50  T4=1750K  BPR=10.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  3] F=150000N  TSFC=37.39  T4=1750K  BPR=10.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  4] F=150000N  TSFC=36.34  T4=1750K  BPR=11.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  5] F=150000N  TSFC=35.34  T4=1750K  BPR=11.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  6] F=150000N  TSFC=34.40  T4=1750K  BPR=12.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  7] F=150000N  TSFC=32.96  T4=1750K  BPR=12.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  8] F=150000N  TSFC=32.14  T4=1750K  BPR=13.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter  9] F=150000N  TSFC=31.36  T4=1750K  BPR=13.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter 10] F=150000N  TSFC=30.62  T4=1750K  BPR=14.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter 11] F=150000N  TSFC=29.92  T4=1750K  BPR=14.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Iter 12] F=150000N  TSFC=29.53  T4=1750K  BPR=15.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0677  T45_mix=1701K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0698  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0698  T45_mix=1699K
+  [Iter 13] F=150000N  TSFC=29.44  T4=1750K  BPR=15.0  OPR=41.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0698  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0720  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0720  T45_mix=1698K
+  [Iter 14] F=150000N  TSFC=29.35  T4=1750K  BPR=15.0  OPR=42.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0720  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0743  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0743  T45_mix=1697K
+  [Iter 15] F=150000N  TSFC=29.27  T4=1750K  BPR=15.0  OPR=43.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0743  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0767  T45_mix=1695K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0767  T45_mix=1695K
+  [Iter 16] F=150000N  TSFC=29.19  T4=1750K  BPR=15.0  OPR=44.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0767  T45_mix=1695K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0793  T45_mix=1693K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0793  T45_mix=1693K
+  [Iter 17] F=150000N  TSFC=29.12  T4=1750K  BPR=15.0  OPR=45.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0793  T45_mix=1693K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0819  T45_mix=1692K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0819  T45_mix=1692K
+  [Iter 18] F=150000N  TSFC=29.05  T4=1750K  BPR=15.0  OPR=46.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0819  T45_mix=1692K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0847  T45_mix=1690K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0847  T45_mix=1690K
+  [Iter 19] F=150000N  TSFC=28.98  T4=1750K  BPR=15.0  OPR=47.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0847  T45_mix=1690K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0877  T45_mix=1688K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0877  T45_mix=1688K
+  [Iter 20] F=150000N  TSFC=28.92  T4=1750K  BPR=15.0  OPR=48.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0877  T45_mix=1688K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0908  T45_mix=1686K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0908  T45_mix=1686K
+  [Iter 21] F=150000N  TSFC=28.87  T4=1750K  BPR=15.0  OPR=49.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0908  T45_mix=1686K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0942  T45_mix=1684K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0942  T45_mix=1684K
+  [Iter 22] F=150000N  TSFC=28.82  T4=1750K  BPR=15.0  OPR=50.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0942  T45_mix=1684K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0977  T45_mix=1682K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0977  T45_mix=1682K
+  [Iter 23] F=150000N  TSFC=28.77  T4=1750K  BPR=15.0  OPR=51.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.0977  T45_mix=1682K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1014  T45_mix=1679K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1014  T45_mix=1679K
+  [Iter 24] F=150000N  TSFC=28.74  T4=1750K  BPR=15.0  OPR=52.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1014  T45_mix=1679K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1054  T45_mix=1677K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1054  T45_mix=1677K
+  [Iter 25] F=150000N  TSFC=28.70  T4=1750K  BPR=15.0  OPR=53.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1054  T45_mix=1677K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1097  T45_mix=1674K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1097  T45_mix=1674K
+  [Iter 26] F=150000N  TSFC=28.67  T4=1750K  BPR=15.0  OPR=54.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1097  T45_mix=1674K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1142  T45_mix=1671K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1142  T45_mix=1671K
+  [Iter 27] F=150000N  TSFC=28.66  T4=1750K  BPR=15.0  OPR=55.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1142  T45_mix=1671K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1191  T45_mix=1668K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1191  T45_mix=1668K
+  [Iter 28] F=150000N  TSFC=28.64  T4=1750K  BPR=15.0  OPR=56.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1191  T45_mix=1668K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1243  T45_mix=1665K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1243  T45_mix=1665K
+  [Iter 29] F=150000N  TSFC=28.64  T4=1750K  BPR=15.0  OPR=57.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1243  T45_mix=1665K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1300  T45_mix=1661K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=2137.82kg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=2137.82kg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=897.9K  Pt=2071.3kPa  ß╣ü=133.61kg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1988.5kPa  ß╣ü=137.24kg/s  ╬│=1.242  f=0.03693
+  S5 [LPT exit]: Tt=822.3K  Pt=32.9kPa  ß╣ü=137.24kg/s  ╬│=1.259  f=0.03693
+  S8 [Core nozzle exit]: Tt=822.3K  Pt=32.9kPa  ß╣ü=137.24kg/s  ╬│=1.296  f=0.03693
+  S13 [Bypass exit]: Tt=284.9K  Pt=56.3kPa  ß╣ü=2004.20kg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=284.9K  Pt=56.3kPa  ß╣ü=2004.20kg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=381.0K  Pt=140.8kPa  ß╣ü=137.24kg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1310.3K  Pt=396.1kPa  ß╣ü=137.24kg/s  ╬│=1.246  f=0.03693
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              28.64 g/(kN┬╖s)
+  Thermal ╬╖:         22.5%
+  Propulsive ╬╖:      87.5%
+  Overall ╬╖:         19.7%
+  Specific Thrust:   70.2 N┬╖s/kg
+  Core ß╣ü:            133.61 kg/s
+  Bypass ß╣ü:          2004.20 kg/s
+  Fuel flow:         4.296 kg/s
+  Fan diameter:      6175 mm
+  Core diameter:     3705 mm
+  HPT coolant frac:  ╬╡=0.1243  ß╣ü_cool=16.613 kg/s
+  HPT mixed T45:     1665.0 K
+  ΓÜá WARNINGS:
+    - Fan D=6.17m very large ΓÇö consider GTF
+    - TSFC=28.6 g/(kN┬╖s) is high
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: 1237 RPM  |  HP spool: 2320 RPM
+    Fan Rotor: R_hub=926.2mm  R_tip=3087.3mm  PR=1.550  N_b=61  ╧â=1.21  DF=0.470  DeH=0.709  ╧ê=0.544  ╧å=0.769
+    LPC Rotor 1: R_hub=972.5mm  R_tip=1389.3mm  PR=1.257  N_b=276  ╧â=1.30  DF=0.466  DeH=0.764  ╧ê=0.923  ╧å=1.176
+    LPC Rotor 2: R_hub=972.5mm  R_tip=1389.3mm  PR=1.257  N_b=276  ╧â=1.30  DF=0.485  DeH=0.762  ╧ê=0.993  ╧å=1.176
+    LPC Rotor 3: R_hub=972.5mm  R_tip=1389.3mm  PR=1.257  N_b=276  ╧â=1.30  DF=0.503  DeH=0.763  ╧ê=1.068  ╧å=1.176
+    LPC Rotor 4: R_hub=972.5mm  R_tip=1389.3mm  PR=1.257  N_b=276  ╧â=1.30  DF=0.518  DeH=0.768  ╧ê=1.150  ╧å=1.176
+    HPC Rotor 1: R_hub=1069.7mm  R_tip=1852.4mm  PR=1.348  N_b=514  ╧â=1.40  DF=0.330  DeH=0.767  ╧ê=0.305  ╧å=0.507
+    HPC Rotor 2: R_hub=1069.7mm  R_tip=1789.2mm  PR=1.348  N_b=503  ╧â=1.40  DF=0.362  DeH=0.745  ╧ê=0.337  ╧å=0.507
+    HPC Rotor 3: R_hub=1069.7mm  R_tip=1726.0mm  PR=1.348  N_b=492  ╧â=1.40  DF=0.398  DeH=0.720  ╧ê=0.372  ╧å=0.507
+    HPC Rotor 4: R_hub=1069.7mm  R_tip=1662.8mm  PR=1.348  N_b=481  ╧â=1.40  DF=0.438  DeH=0.693  ╧ê=0.411  ╧å=0.507
+    HPC Rotor 5: R_hub=1069.7mm  R_tip=1599.6mm  PR=1.348  N_b=470  ╧â=1.40  DF=0.482  DeH=0.663  ╧ê=0.456  ╧å=0.507
+    HPC Rotor 6: R_hub=1069.7mm  R_tip=1536.4mm  PR=1.348  N_b=458  ╧â=1.40  DF=0.531  DeH=0.631  ╧ê=0.507  ╧å=0.507
+    HPC Rotor 7: R_hub=1069.7mm  R_tip=1473.2mm  PR=1.348  N_b=447  ╧â=1.40  DF=0.584  DeH=0.596  ╧ê=0.565  ╧å=0.507
+    HPC Rotor 8: R_hub=1069.7mm  R_tip=1410.1mm  PR=1.348  N_b=436  ╧â=1.40  DF=0.641  DeH=0.560  ╧ê=0.630  ╧å=0.507
+    HPC Rotor 9: R_hub=1069.7mm  R_tip=1346.9mm  PR=1.348  N_b=425  ╧â=1.40  DF=0.702  DeH=0.523  ╧ê=0.705  ╧å=0.507
+    HPT Rotor 1: R_hub=1048.3mm  R_tip=1373.8mm  PR=2.241  N_b=209  ╧â=1.10  DF=-1.622  DeH=4.055  ╧ê=3.584  ╧å=0.544
+    HPT Rotor 2: R_hub=1048.3mm  R_tip=1373.8mm  PR=2.241  N_b=209  ╧â=1.10  DF=-1.596  DeH=4.006  ╧ê=3.528  ╧å=0.544
+    LPT Rotor 1: R_hub=995.9mm  R_tip=1442.5mm  PR=1.645  N_b=153  ╧â=1.00  DF=-1.799  DeH=4.808  ╧ê=5.363  ╧å=0.886
+    LPT Rotor 2: R_hub=995.9mm  R_tip=1462.5mm  PR=1.645  N_b=153  ╧â=1.00  DF=-1.781  DeH=4.773  ╧ê=5.316  ╧å=0.886
+    LPT Rotor 3: R_hub=995.9mm  R_tip=1482.5mm  PR=1.645  N_b=153  ╧â=1.00  DF=-1.763  DeH=4.737  ╧ê=5.267  ╧å=0.886
+    LPT Rotor 4: R_hub=995.9mm  R_tip=1502.5mm  PR=1.645  N_b=153  ╧â=1.00  DF=-1.622  DeH=4.450  ╧ê=4.880  ╧å=0.886
+    LPT Rotor 5: R_hub=995.9mm  R_tip=1522.5mm  PR=1.645  N_b=153  ╧â=1.00  DF=-1.589  DeH=4.383  ╧ê=4.790  ╧å=0.886
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = 295.42 m┬▓/s
+  Streamlines: 11 from r_hub=926.2mm to r_tip=3087.3mm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0    926.2      1.00    318.96    0.005    19.29
+    1   1142.3      1.00    258.62    0.005    15.64
+    2   1358.4    119.09    217.48    0.595    11.86
+    3   1574.5    162.32    187.63    0.812     7.97
+    4   1790.6    185.46    164.98    0.927     4.00
+    5   2006.7    200.00    147.21    1.000     0.00
+    6   2222.8    209.91    132.90    1.050    -4.00
+    7   2438.9    217.02    121.13    1.085    -7.97
+    8   2655.0    222.33    111.27    1.112   -11.86
+    9   2871.1    226.42    102.89    1.132   -15.64
+   10   3087.3    229.63     95.69    1.148   -19.29
+  Mass flow check: integrated=2102.74 kg/s  target=2137.82 kg/s  error=1.6%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  M1r=1.466  ╬ö╬╖=0.0255  Γ£ù SEVERE
+  HPC Rotor 1 TIP SHOCK: U_tip=450.0m/s  M1r=1.269  ╬ö╬╖=0.0112  ΓÜá WARN
+  HPC Rotor 2 TIP SHOCK: U_tip=434.6m/s  M1r=1.175  ╬ö╬╖=0.0058  ΓÜá WARN
+  HPC Rotor 3 TIP SHOCK: U_tip=419.3m/s  M1r=1.086  ╬ö╬╖=0.0020  ΓÜá WARN
+  HPC Rotor 4 TIP SHOCK: U_tip=403.9m/s  M1r=1.004  ╬ö╬╖=0.0000  ΓÜá WARN
+  Aero check: FAILURES FOUND Γ£ù
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Γ£ù Aero checks failed ΓÇö adjusting design points...
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 2 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1386  T45_mix=1656K
+  [Iter  0] F=150000N  TSFC=31.87  T4=1750K  BPR=15.0  OPR=55.3  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1386  T45_mix=1656K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1461  T45_mix=1651K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=2449.08kg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=2449.08kg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=909.7K  Pt=2009.2kPa  ß╣ü=153.07kg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1928.8kPa  ß╣ü=157.08kg/s  ╬│=1.242  f=0.03647
+  S5 [LPT exit]: Tt=794.9K  Pt=26.8kPa  ß╣ü=157.08kg/s  ╬│=1.260  f=0.03647
+  S8 [Core nozzle exit]: Tt=794.9K  Pt=26.8kPa  ß╣ü=157.08kg/s  ╬│=1.299  f=0.03647
+  S13 [Bypass exit]: Tt=286.0K  Pt=56.3kPa  ß╣ü=2296.02kg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=286.0K  Pt=56.3kPa  ß╣ü=2296.02kg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=382.5K  Pt=140.8kPa  ß╣ü=157.08kg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1297.6K  Pt=364.8kPa  ß╣ü=157.08kg/s  ╬│=1.247  f=0.03647
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              31.87 g/(kN┬╖s)
+  Thermal ╬╖:         20.0%
+  Propulsive ╬╖:      88.3%
+  Overall ╬╖:         17.7%
+  Specific Thrust:   61.2 N┬╖s/kg
+  Core ß╣ü:            153.07 kg/s
+  Bypass ß╣ü:          2296.02 kg/s
+  Fuel flow:         4.781 kg/s
+  Fan diameter:      6609 mm
+  Core diameter:     3965 mm
+  HPT coolant frac:  ╬╡=0.1386  ß╣ü_cool=21.210 kg/s
+  HPT mixed T45:     1656.0 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=910K > 900K ΓÇö Ni-alloy required in last stages
+    - Fan D=6.61m very large ΓÇö consider GTF
+    - TSFC=31.9 g/(kN┬╖s) is high
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: 1156 RPM  |  HP spool: 2167 RPM
+    Fan Rotor: R_hub=991.3mm  R_tip=3304.4mm  PR=1.550  N_b=65  ╧â=1.20  DF=0.483  DeH=0.702  ╧ê=0.561  ╧å=0.769
+    LPC Rotor 1: R_hub=1040.9mm  R_tip=1487.0mm  PR=1.257  N_b=295  ╧â=1.30  DF=0.467  DeH=0.763  ╧ê=0.926  ╧å=1.176
+    LPC Rotor 2: R_hub=1040.9mm  R_tip=1487.0mm  PR=1.257  N_b=295  ╧â=1.30  DF=0.486  DeH=0.762  ╧ê=0.997  ╧å=1.176
+    LPC Rotor 3: R_hub=1040.9mm  R_tip=1487.0mm  PR=1.257  N_b=295  ╧â=1.30  DF=0.504  DeH=0.763  ╧ê=1.073  ╧å=1.176
+    LPC Rotor 4: R_hub=1040.9mm  R_tip=1487.0mm  PR=1.257  N_b=295  ╧â=1.30  DF=0.519  DeH=0.769  ╧ê=1.155  ╧å=1.176
+    HPC Rotor 1: R_hub=1145.0mm  R_tip=1982.6mm  PR=1.344  N_b=550  ╧â=1.40  DF=0.335  DeH=0.764  ╧ê=0.310  ╧å=0.507
+    HPC Rotor 2: R_hub=1145.0mm  R_tip=1915.0mm  PR=1.344  N_b=538  ╧â=1.40  DF=0.368  DeH=0.741  ╧ê=0.342  ╧å=0.507
+    HPC Rotor 3: R_hub=1145.0mm  R_tip=1847.4mm  PR=1.344  N_b=526  ╧â=1.40  DF=0.405  DeH=0.716  ╧ê=0.378  ╧å=0.507
+    HPC Rotor 4: R_hub=1145.0mm  R_tip=1779.7mm  PR=1.344  N_b=515  ╧â=1.40  DF=0.446  DeH=0.688  ╧ê=0.419  ╧å=0.507
+    HPC Rotor 5: R_hub=1145.0mm  R_tip=1712.1mm  PR=1.344  N_b=503  ╧â=1.40  DF=0.491  DeH=0.657  ╧ê=0.465  ╧å=0.507
+    HPC Rotor 6: R_hub=1145.0mm  R_tip=1644.5mm  PR=1.344  N_b=491  ╧â=1.40  DF=0.541  DeH=0.624  ╧ê=0.518  ╧å=0.507
+    HPC Rotor 7: R_hub=1145.0mm  R_tip=1576.8mm  PR=1.344  N_b=479  ╧â=1.40  DF=0.595  DeH=0.589  ╧ê=0.577  ╧å=0.507
+    HPC Rotor 8: R_hub=1145.0mm  R_tip=1509.2mm  PR=1.344  N_b=467  ╧â=1.40  DF=0.654  DeH=0.552  ╧ê=0.646  ╧å=0.507
+    HPC Rotor 9: R_hub=1145.0mm  R_tip=1441.6mm  PR=1.344  N_b=455  ╧â=1.40  DF=0.715  DeH=0.515  ╧ê=0.723  ╧å=0.507
+    HPT Rotor 1: R_hub=1122.1mm  R_tip=1470.4mm  PR=2.299  N_b=224  ╧â=1.10  DF=-1.671  DeH=4.141  ╧ê=3.682  ╧å=0.544
+    HPT Rotor 2: R_hub=1122.1mm  R_tip=1470.4mm  PR=2.299  N_b=224  ╧â=1.10  DF=-1.643  DeH=4.089  ╧ê=3.623  ╧å=0.544
+    LPT Rotor 1: R_hub=1066.0mm  R_tip=1543.9mm  PR=1.686  N_b=164  ╧â=1.00  DF=-1.855  DeH=4.917  ╧ê=5.510  ╧å=0.886
+    LPT Rotor 2: R_hub=1066.0mm  R_tip=1563.9mm  PR=1.686  N_b=164  ╧â=1.00  DF=-1.837  DeH=4.880  ╧ê=5.460  ╧å=0.886
+    LPT Rotor 3: R_hub=1066.0mm  R_tip=1583.9mm  PR=1.686  N_b=164  ╧â=1.00  DF=-1.817  DeH=4.841  ╧ê=5.407  ╧å=0.886
+    LPT Rotor 4: R_hub=1066.0mm  R_tip=1603.9mm  PR=1.686  N_b=164  ╧â=1.00  DF=-1.668  DeH=4.539  ╧ê=5.000  ╧å=0.886
+    LPT Rotor 5: R_hub=1066.0mm  R_tip=1623.9mm  PR=1.686  N_b=164  ╧â=1.00  DF=-1.631  DeH=4.465  ╧ê=4.900  ╧å=0.886
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = 325.96 m┬▓/s
+  Streamlines: 11 from r_hub=991.3mm to r_tip=3304.4mm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0    991.3      1.00    328.81    0.005    19.29
+    1   1222.6      1.00    266.60    0.005    15.64
+    2   1453.9    112.14    224.19    0.561    11.86
+    3   1685.2    159.68    193.42    0.798     7.97
+    4   1916.5    184.52    170.08    0.923     4.00
+    5   2147.8    200.00    151.76    1.000     0.00
+    6   2379.2    210.50    137.01    1.053    -4.00
+    7   2610.5    218.03    124.87    1.090    -7.97
+    8   2841.8    223.64    114.70    1.118   -11.86
+    9   3073.1    227.95    106.07    1.140   -15.64
+   10   3304.4    231.33     98.64    1.157   -19.29
+  Mass flow check: integrated=2404.47 kg/s  target=2449.08 kg/s  error=1.8%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  M1r=1.466  ╬ö╬╖=0.0255  Γ£ù SEVERE
+  HPC Rotor 1 TIP SHOCK: U_tip=450.0m/s  M1r=1.267  ╬ö╬╖=0.0110  ΓÜá WARN
+  HPC Rotor 2 TIP SHOCK: U_tip=434.7m/s  M1r=1.172  ╬ö╬╖=0.0057  ΓÜá WARN
+  HPC Rotor 3 TIP SHOCK: U_tip=419.3m/s  M1r=1.083  ╬ö╬╖=0.0019  ΓÜá WARN
+  HPC Rotor 4 TIP SHOCK: U_tip=404.0m/s  M1r=1.000  ╬ö╬╖=0.0000  ΓÜá WARN
+  Aero check: FAILURES FOUND Γ£ù
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Γ£ù Aero checks failed ΓÇö adjusting design points...
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 3 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 4 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 5 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 6 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 7 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 8 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 9 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+
+ΓûÇΓûÇΓûÇΓûÇΓûÇ GLOBAL ITERATION 10 ΓûÇΓûÇΓûÇΓûÇΓûÇ
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Iter  0] F=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=53.6  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1676  T45_mix=1638K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  ╬╡_cool=0.1571  T45_mix=1644K
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  BRAYTON CYCLE SOLUTION ΓÇö V3
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S3 [HPC exit]: Tt=921.8K  Pt=1948.9kPa  ß╣ü=NaNkg/s  ╬│=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1871.0kPa  ß╣ü=NaNkg/s  ╬│=1.243  f=0.03600
+  S5 [LPT exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.261  f=0.03600
+  S8 [Core nozzle exit]: Tt=765.3K  Pt=21.4kPa  ß╣ü=NaNkg/s  ╬│=1.303  f=0.03600
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ß╣ü=NaNkg/s  ╬│=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1283.6K  Pt=334.1kPa  ß╣ü=NaNkg/s  ╬│=1.248  f=0.03600
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN┬╖s)
+  Thermal ╬╖:         NaN%
+  Propulsive ╬╖:      NaN%
+  Overall ╬╖:         NaN%
+  Specific Thrust:   NaN N┬╖s/kg
+  Core ß╣ü:            NaN kg/s
+  Bypass ß╣ü:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ╬╡=0.1571  ß╣ü_cool=NaN kg/s
+  HPT mixed T45:     1644.2 K
+  ΓÜá WARNINGS:
+    - HPC exit Tt3=922K > 900K ΓÇö Ni-alloy required in last stages
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 2: FLOW PATH & BLADE GEOMETRY (V3)
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+    Fan Rotor: R_hub=NaNmm  R_tip=NaNmm  PR=1.550  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.257  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 6: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 7: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 8: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPC Rotor 9: R_hub=NaNmm  R_tip=NaNmm  PR=1.339  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    HPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=2.366  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 1: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 2: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 3: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 4: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+    LPT Rotor 5: R_hub=NaNmm  R_tip=NaNmm  PR=1.733  N_b=12  ╧â=NaN  DF=NaN  DeH=1.000  ╧ê=0.000  ╧å=0.000
+  Engine length Γëê 1701 mm
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  LAYER 1: KATSANIS 2.5D RADIAL EQUILIBRIUM
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Free-vortex constant K = NaN m┬▓/s
+  Streamlines: 11 from r_hub=NaNmm to r_tip=NaNmm
+  ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+   i    r(mm)   Vm(m/s)   V╬╕(m/s)   Vm/Va_m   ╬╕(deg)
+    0      NaN       NaN       NaN      NaN      NaN
+    1      NaN       NaN       NaN      NaN      NaN
+    2      NaN       NaN       NaN      NaN      NaN
+    3      NaN       NaN       NaN      NaN      NaN
+    4      NaN       NaN       NaN      NaN      NaN
+    5      NaN       NaN       NaN      NaN      NaN
+    6      NaN       NaN       NaN      NaN      NaN
+    7      NaN       NaN       NaN      NaN      NaN
+    8      NaN       NaN       NaN      NaN      NaN
+    9      NaN       NaN       NaN      NaN      NaN
+   10      NaN       NaN       NaN      NaN      NaN
+  Mass flow check: integrated=NaN kg/s  target=NaN kg/s  error=NaN%
+  [LAYER 1 COMPLETE]
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3A: AERODYNAMIC VALIDATION
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Aero check: ALL PASSED Γ£ô
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 3B: COMBUSTOR DESIGN
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.097  Γ£ô
+  Combustion ╬╖: NaN  Γ£ù FAIL
+  NOx EI: NaN g/kg  Γ£ù CAEP/8 FAIL
+  Liner: Hastelloy X + TBC
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+  GATE 4A / LAYER 3: 3D TIMOSHENKO FEA & STRUCTURAL
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+        Fan Rotor: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 6: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 7: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 8: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPC Rotor 9: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      HPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 1: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 2: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 3: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 4: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+      LPT Rotor 5: ╧â_cent=NaN  ╧â_bend=NaN  ╧â_VM=NaNMPa  SF=NaN  Creep=NaNh  Γ£ù FAIL
+  [LAYER 3 COMPLETE]
+  Γ£ù Structural fail on Fan Rotor (SF=NaN)
+  ΓÜá Max MDAO iterations reached ΓÇö returning best estimate.

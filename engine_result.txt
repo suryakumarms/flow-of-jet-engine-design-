@@ -1,0 +1,183 @@
+--------------------------------------------------
+    METHALOX ENGINE SIMULATION - PHASE 1
+--------------------------------------------------
+Thrust Target:   20000 N
+Chamber Pressure: 50 bar
+Chamber Temp:     3550 K
+Gamma:            1.21
+Mol Weight:       21 kg/kmol
+Expansion Ratio:  14
+O/F Ratio:        3.5
+--------------------------------------------------
+Gas Constant (R): 395.90 J/kg.K
+c*:               1822.57 m/s
+Exit Mach:        3.55
+Pe/Pc:            0.0078
+Exit Pressure:    0.39 bar
+Thrust Coeff (Cf): 1.4916
+Throat Area (At):  26.8173 cm2
+Throat Radius:     29.22 mm
+Mass Flow Rate:    7.36 kg/s
+Exit Area (Ae):    375.4425 cm2
+Exit Radius:       109.32 mm
+--------------------------------------------------
+    PROPELLANT FLOWS
+--------------------------------------------------
+Fuel Flow (CH4):   1.63 kg/s
+Oxidizer Flow (LOX):5.72 kg/s
+--------------------------------------------------
+--------------------------------------------------
+    STEP B: MIXTURE RATIO SWEEP (3.2 - 3.8)
+--------------------------------------------------
+PC = 50 bar, Expansion Ratio = 20, Thrust = 20 kN
+--------------------------------------------------
+O/F    | Tc (K)   | M      | Gam   | c* (m/s)   | Mach   | Cf     | Isp (s)  | T_deg (mm)
+--------------------------------------------------
+3.2    | 3460     | 20.30  | 1.195 | 1838.30    | 3.495  | 1.502  | 281.59   | 58.23     
+3.3    | 3510     | 20.60  | 1.200 | 1835.25    | 3.512  | 1.499  | 280.45   | 58.30     
+3.4    | 3550     | 20.90  | 1.205 | 1829.64    | 3.529  | 1.495  | 278.94   | 58.37     
+3.5    | 3580     | 21.20  | 1.210 | 1821.60    | 3.547  | 1.492  | 277.06   | 58.43     
+3.6    | 3600     | 21.50  | 1.215 | 1811.22    | 3.565  | 1.488  | 274.85   | 58.50     
+3.7    | 3615     | 21.80  | 1.220 | 1799.81    | 3.582  | 1.485  | 272.49   | 58.57     
+3.8    | 3625     | 22.10  | 1.225 | 1787.40    | 3.600  | 1.481  | 270.00   | 58.64     
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 2: GEOMETRY GENERATION
+--------------------------------------------------
+Locked Inputs from Phase 1 (Result.txt):
+Pc = 50 bar, O/F = 3.5, Epsilon = 14
+--------------------------------------------------
+Chamber Volume (Vc): 2413.26 cm3
+Chamber Radius (Rc): 49.67 mm
+Chamber Length (Lc): 311.31 mm
+L* (Char Length):    0.90 m
+--------------------------------------------------
+Converging Start Z:  -29.21 mm
+Lconv:               29.21 mm
+Converging Angle:    35.0 deg
+--------------------------------------------------
+Diverging Start Z:   0.00 mm (Throat)
+Ldiv (Rao 80%):      239.15 mm
+Diverging Exit Z:    239.15 mm
+--------------------------------------------------
+TOTAL ENGINE LENGTH: 579.67 mm
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 2B: THERMAL SOLVER (FEASIBILITY CHECK)
+--------------------------------------------------
+Assumptions: Parallel Flow (Injector -> Exit), Methane Coolant
+--------------------------------------------------
+Peak Heat Flux:      29.67 MW/m2
+Peak Wall Temp (Tg): 773 K
+Coolant Outlet Temp: 498 K (Inlet 110 K)
+Total Absorbed Heat: 2.24 MW
+--------------------------------------------------
+FEASIBILITY: PASSED
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 2B: OPTIMIZATION (COUNTER-FLOW)
+--------------------------------------------------
+Peak Heat Flux:      30.74 MW/m2
+Peak Wall Temp (Tg): 674 K (Parallel was 773 K)
+Coolant Outlet Temp: 497 K
+Heat Load:           2.24 MW
+Coolant Temp @ Throat: 251 K
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 3: STRUCTURAL COUPLING (THICKNESS)
+--------------------------------------------------
+Max Required Thickness: 1.51 mm
+Throat Thickness (z=0): 0.41 mm
+Chamber Thickness:      1.51 mm
+Exit Thickness:         0.02 mm
+--------------------------------------------------
+--------------------------------------------------
+Assumptions: NARloy-Z Copper, Yield degrading with Temp, SF=1.5
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 3 OPTIMIZATION: LATTICE ARCHITECTURE
+--------------------------------------------------
+Strategy: Fixed 1.0mm Copper Liner + Lattice Reinforcement
+Calculating Overstress Ratio Field R(z)...
+Max Overstress Ratio (R): 1.51
+Reinforcement Zone Start: -340.52 mm
+Reinforcement Zone End:   -21.70 mm
+CONCLUSION: Lattice MUST carry 51% additional load in chamber.
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 4: LATTICE INTEGRATION REQUIREMENTS
+--------------------------------------------------
+Max Overstress Location: -340.52 mm
+Liner Allowable Stress:  164.09 MPa (at T_wall = 668 K)
+Actual Hoop Stress:      248.37 MPa (in 1.0 mm Liner)
+Excess Hoop Stress:      84.28 MPa
+--------------------------------------------------
+LATTICE REQUIREMENTS:
+1. Required Load Share:  33.9% of Pressure Load
+2. Effective Capacity:   84.28 MPa (Hoop Stress)
+--------------------------------------------------
+LATTICE PARAMETERS (Material: Inconel 718 (Graded))
+ - Cell Size:            5.0 mm
+ - Relative Density:     10% (Inner) to 43% (Outer)
+ - Gradient Exponent:    n=5.0 (Quadratic)
+ - Strut Diameter:       0.898 mm (at max density)
+--------------------------------------------------
+FINAL VALIDATION: THERMAL COMPATIBILITY (GRADED LATTICE)
+Check: Radial expansion difference (Copper vs Inconel)
+Max Radial Mismatch:     0.196 mm (Copper expands more)
+Copper Temp at Max:      668 K
+Interface Stress (Cu):   -128.82 MPa (Compressive)
+RESULT: PASSED. Compressive stress is < 150 MPa (Safe).
+--------------------------------------------------
+This 'Excess Hoop Stress' must be provided by the lattice layer.
+--------------------------------------------------
+--------------------------------------------------
+    PHASE 5: INJECTOR DESIGN (PINTLE)
+--------------------------------------------------
+Configuration:       Central LOX (Liquid) / Annular CH4 (Gas)
+Chamber Pressure:    50.0 bar
+Mass Flow (Total):   7.35 kg/s (O/F = 3.5)
+--------------------------------------------------
+FLUID PROPERTIES @ INJECTION:
+LOX Temp:            90 K (Density: 1141 kg/m3)
+CH4 Temp:            497 K (Density: 25.5 kg/m3)
+--------------------------------------------------
+VELOCITIES & STABILITY:
+dP / Pc Targets:     LOX=20%, CH4=10%
+LOX Velocity:        29.3 m/s
+CH4 Velocity:        138.6 m/s
+Momentum Ratio (TMR): 1.35 (Target ~1.0)
+--------------------------------------------------
+SIZING DIMENSIONS:
+Pintle Diameter:     15.65 mm
+Annular Gap:         9.38 mm
+RESULT: STABLE MIXING PREDICTED.
+--------------------------------------------------
+INJECTOR-CHAMBER COUPLING CHECK:
+Spray Half-Angle:      38.8 deg
+Wall Impingement Dist: 52.1 mm (1.0 x Radius)
+Recirculation Zone:    39.1 mm
+Face Heat Correction:  0.80 (Based on TMR)
+Compatibility:         PASSED
+--------------------------------------------------
+STABILITY & ACOUSTICS (INSTABILITY RISK):
+Sound Speed (c):       1304 m/s
+Chamber 1L Mode:       2094 Hz
+Injector Hydro Freq:   2657 Hz (Shedding St=0.3)
+Separation Ratio:      1.27
+Risk Assessment:       LOW (STABLE)
+--------------------------------------------------
+STARTUP TRANSIENT SCREENING (IGNITION 20ms):
+Scenario: Ox Lead (20ms Lead, 20ms Ign Delay)
+ - Acc. Mass: 0.261 kg
+ - Peak Press: 500 bar (Est)
+ - Risk Level: CRITICAL
+ - Note: Reduce Ignition Delay! Mass 0.261kg > 0.05kg Limit.
+Scenario: Fuel Lead (20ms Lead, 20ms Ign Delay)
+ - Risk Level: CRITICAL
+ - Note: Reduce Ignition Delay! Mass 0.180kg > 0.05kg Limit.
+Scenario: Simultaneous (0ms Lead, 50ms Ign Delay)
+ - Acc. Mass: 0.367 kg
+ - Risk Level: CRITICAL
+ - Note: Reduce Ignition Delay! Mass 0.367kg > 0.05kg Limit.
+--------------------------------------------------

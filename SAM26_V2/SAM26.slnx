@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/LEAP71_LatticeLibrary-main/" />
+  <Folder Name="/LEAP71_LatticeLibrary-main/LatticeLibrary/">
+    <Project Path="LEAP71_LatticeLibrary-main/LatticeLibrary/Leap71.LatticeLibrary.csproj" />
+  </Folder>
+  <Folder Name="/LEAP71_QuasiCrystals-main/" />
+  <Folder Name="/LEAP71_QuasiCrystals-main/QuasiCrystal/">
+    <Project Path="LEAP71_QuasiCrystals-main/QuasiCrystal/Leap71.QuasiCrystals.csproj" />
+  </Folder>
+  <Folder Name="/LEAP71_ShapeKernel-main/" />
+  <Folder Name="/LEAP71_ShapeKernel-main/ShapeKernel/">
+    <Project Path="LEAP71_ShapeKernel-main/ShapeKernel/Leap71.ShapeKernel.csproj" />
+  </Folder>
+  <Folder Name="/PicoGK-main/">
+    <Project Path="PicoGK-main/PicoGK.csproj" />
+  </Folder>
+  <Project Path="TestRunner/TestRunner.csproj" />
+</Solution>

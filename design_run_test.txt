@@ -1,0 +1,1337 @@
+JET ENGINE DESIGN PLATFORM — Running: jet_design
+╔════════════════════════════════════════════════════════╗
+║  CLOSED-LOOP JET ENGINE DESIGN — STARTING            ║
+╚════════════════════════════════════════════════════════╝
+
+▀▀▀▀▀ GLOBAL ITERATION 1 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 0] Thrust=150000N  TSFC=40.15  T4=1750K  BPR=9.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 1] Thrust=150000N  TSFC=38.94  T4=1750K  BPR=9.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 2] Thrust=150000N  TSFC=37.80  T4=1750K  BPR=10.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 3] Thrust=150000N  TSFC=36.72  T4=1750K  BPR=10.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 4] Thrust=150000N  TSFC=35.71  T4=1750K  BPR=11.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 5] Thrust=150000N  TSFC=34.75  T4=1750K  BPR=11.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 6] Thrust=150000N  TSFC=33.84  T4=1750K  BPR=12.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 7] Thrust=150000N  TSFC=33.00  T4=1750K  BPR=12.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 8] Thrust=150000N  TSFC=32.19  T4=1750K  BPR=13.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 9] Thrust=150000N  TSFC=31.41  T4=1750K  BPR=13.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 10] Thrust=150000N  TSFC=30.67  T4=1750K  BPR=14.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 11] Thrust=150000N  TSFC=29.97  T4=1750K  BPR=14.5  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Iter 12] Thrust=150000N  TSFC=29.82  T4=1750K  BPR=15.0  OPR=40.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.530  ε_cool=0.0677  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.538  ε_cool=0.0698  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.538  ε_cool=0.0698  T45_mix=1697K
+  [Iter 13] Thrust=150000N  TSFC=29.79  T4=1750K  BPR=15.0  OPR=41.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.538  ε_cool=0.0698  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.545  ε_cool=0.0720  T45_mix=1696K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.545  ε_cool=0.0720  T45_mix=1696K
+  [Iter 14] Thrust=150000N  TSFC=29.78  T4=1750K  BPR=15.0  OPR=42.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.545  ε_cool=0.0720  T45_mix=1696K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.553  ε_cool=0.0743  T45_mix=1695K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.553  ε_cool=0.0743  T45_mix=1695K
+  [Iter 15] Thrust=150000N  TSFC=29.77  T4=1750K  BPR=15.0  OPR=43.0  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.553  ε_cool=0.0743  T45_mix=1695K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.561  ε_cool=0.0767  T45_mix=1693K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=1939.67kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=1939.67kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=820.7K  Pt=1562.6kPa  ṁ=121.23kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1500.1kPa  ṁ=125.70kg/s  γ=1.256  f=0.03684
+  S5 [LPT exit]: Tt=852.8K  Pt=40.4kPa  ṁ=125.70kg/s  γ=1.288  f=0.03684
+  S8 [Core nozzle exit]: Tt=852.8K  Pt=40.4kPa  ṁ=125.70kg/s  γ=1.301  f=0.03684
+  S13 [Bypass exit]: Tt=284.9K  Pt=56.3kPa  ṁ=1818.44kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=284.9K  Pt=56.3kPa  ṁ=1818.44kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=381.0K  Pt=140.8kPa  ṁ=125.70kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1374.2K  Pt=422.4kPa  ṁ=125.70kg/s  γ=1.265  f=0.03684
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              29.77 g/(kN·s)
+  Thermal η:         22.6%
+  Propulsive η:      83.7%
+  Overall η:         18.9%
+  Specific Thrust:   77.3 N·s/kg
+  Core ṁ:            121.23 kg/s
+  Bypass ṁ:          1818.44 kg/s
+  Fuel flow:         4.466 kg/s
+  Fan diameter:      5881 mm
+  Core diameter:     3529 mm
+  HPT coolant frac:  ε=0.0743  ṁ_cool=9.008 kg/s
+  HPT mixed T45:     1694.5 K
+  ⚠ WARNINGS:
+    - Fan diameter 5.88m is very large — consider geared turbofan
+    - TSFC=29.8 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1299 RPM  |  HP spool: 2435 RPM
+  Fan Rotor: r_hub=882.2mm  r_tip=2940.7mm  N_blades=181  PR=1.550  ΔT=36.6K  DeHaller=0.71  ψ=0.54  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=926.3mm  r_tip=1323.3mm  N_blades=263  PR=1.257  ΔT=21.5K  DeHaller=0.76  ψ=0.92  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=954.1mm  r_tip=1296.9mm  N_blades=263  PR=1.257  ΔT=23.1K  DeHaller=0.76  ψ=0.99  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=982.7mm  r_tip=1270.9mm  N_blades=263  PR=1.257  ΔT=24.9K  DeHaller=0.76  ψ=1.07  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1012.2mm  r_tip=1245.5mm  N_blades=263  PR=1.257  ΔT=26.7K  DeHaller=0.77  ψ=1.15  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1063.4mm  r_tip=1159.6mm  N_blades=391  PR=1.272  ΔT=30.4K  DeHaller=0.73  ψ=0.38  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1084.7mm  r_tip=1142.2mm  N_blades=391  PR=1.272  ΔT=32.8K  DeHaller=0.70  ψ=0.41  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1106.4mm  r_tip=1125.0mm  N_blades=393  PR=1.272  ΔT=35.4K  DeHaller=0.68  ψ=0.45  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1128.5mm  r_tip=1108.2mm  N_blades=393  PR=1.272  ΔT=38.3K  DeHaller=0.65  ψ=0.48  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1151.1mm  r_tip=1091.5mm  N_blades=395  PR=1.272  ΔT=41.3K  DeHaller=0.61  ψ=0.52  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1174.1mm  r_tip=1075.2mm  N_blades=395  PR=1.272  ΔT=44.6K  DeHaller=0.58  ψ=0.56  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1197.6mm  r_tip=1059.0mm  N_blades=397  PR=1.272  ΔT=48.2K  DeHaller=0.55  ψ=0.61  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1221.6mm  r_tip=1043.1mm  N_blades=399  PR=1.272  ΔT=52.0K  DeHaller=0.51  ψ=0.65  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1246.0mm  r_tip=1027.5mm  N_blades=399  PR=1.272  ΔT=56.1K  DeHaller=0.47  ψ=0.71  mat=Inconel 718
+  HPC Rotor 10: r_hub=1270.9mm  r_tip=1012.1mm  N_blades=401  PR=1.272  ΔT=60.6K  DeHaller=0.43  ψ=0.76  mat=Inconel 718
+  HPT Rotor 1: r_hub=1231.5mm  r_tip=1395.7mm  N_blades=185  PR=0.000  ΔT=-187.9K  DeHaller=0.85  ψ=2.27  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1231.5mm  r_tip=1465.5mm  N_blades=191  PR=0.000  ΔT=-187.9K  DeHaller=0.94  ψ=2.10  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1169.9mm  r_tip=1692.6mm  N_blades=153  PR=0.000  ΔT=-74.5K  DeHaller=0.78  ψ=2.53  mat=Inconel 718
+  LPT Rotor 2: r_hub=1146.5mm  r_tip=1743.4mm  N_blades=155  PR=0.000  ΔT=-74.5K  DeHaller=0.81  ψ=2.45  mat=Inconel 718
+  LPT Rotor 3: r_hub=1123.6mm  r_tip=1795.7mm  N_blades=155  PR=0.000  ΔT=-74.5K  DeHaller=0.84  ψ=2.38  mat=Inconel 718
+  LPT Rotor 4: r_hub=1101.1mm  r_tip=1849.5mm  N_blades=157  PR=0.000  ΔT=-74.5K  DeHaller=0.88  ψ=2.30  mat=Inconel 718
+  LPT Rotor 5: r_hub=1079.1mm  r_tip=1905.0mm  N_blades=159  PR=0.000  ΔT=-74.5K  DeHaller=0.91  ψ=2.23  mat=Inconel 718
+  LPT Rotor 6: r_hub=1057.5mm  r_tip=1962.2mm  N_blades=161  PR=0.000  ΔT=-74.5K  DeHaller=0.94  ψ=2.16  mat=Inconel 718
+  LPT Rotor 7: r_hub=1036.4mm  r_tip=2021.1mm  N_blades=163  PR=0.000  ΔT=-74.5K  DeHaller=0.97  ψ=2.08  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=10 HPT=2 LPT=7
+  Engine length: 2042 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.469  DeH=0.710  ψ=0.54  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.771  ✓ subsonic tip
+  LPC Rotor 1: DF=0.465  DeH=0.764  ψ=0.92  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.736  ✓ subsonic tip
+  LPC Rotor 2: DF=0.485  DeH=0.762  ψ=0.99  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.703  ✓ subsonic tip
+  LPC Rotor 3: DF=0.503  DeH=0.763  ψ=1.07  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.671  ✓ subsonic tip
+  LPC Rotor 4: DF=0.520  DeH=0.767  ψ=1.15  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.881  ✓ subsonic tip
+  HPC Rotor 1: DF=0.392  DeH=0.728  ψ=0.38  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.832  ✓ subsonic tip
+  HPC Rotor 2: DF=0.433  DeH=0.703  ψ=0.41  φ=0.55  ✓
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.785  ✓ subsonic tip
+  HPC Rotor 3: DF=0.478  DeH=0.676  ψ=0.45  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.741  ✓ subsonic tip
+  HPC Rotor 4: DF=0.529  DeH=0.646  ψ=0.48  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.700  ✓ subsonic tip
+  HPC Rotor 5: DF=0.584  DeH=0.615  ψ=0.52  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.661  ✓ subsonic tip
+  HPC Rotor 6: DF=0.646  DeH=0.581  ψ=0.56  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.624  ✓ subsonic tip
+  HPC Rotor 7: DF=0.714  DeH=0.546  ψ=0.61  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.589  ✓ subsonic tip
+  HPC Rotor 8: DF=0.789  DeH=0.508  ψ=0.65  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.555  ✓ subsonic tip
+  HPC Rotor 9: DF=0.874  DeH=0.469  ψ=0.71  φ=0.41  ✗
+  HPC Rotor 10 tip: U=258.1m/s  M1r=0.524  ✓ subsonic tip
+  HPC Rotor 10: DF=0.967  DeH=0.429  ψ=0.76  φ=0.40  ✗
+  HPT Rotor 1 tip: U=356.0m/s  M1r=0.532  ✓ subsonic tip
+  HPT Rotor 1: DF=1.012  DeH=0.847  ψ=2.27  φ=0.75  ✗
+  HPT Rotor 2 tip: U=373.8m/s  M1r=0.582  ✓ subsonic tip
+  HPT Rotor 2: DF=0.944  DeH=0.940  ψ=2.10  φ=0.73  ✗
+  LPT Rotor 1 tip: U=230.2m/s  M1r=0.421  ✓ subsonic tip
+  LPT Rotor 1: DF=1.027  DeH=0.780  ψ=2.53  φ=1.03  ✗
+  LPT Rotor 2 tip: U=237.1m/s  M1r=0.449  ✓ subsonic tip
+  LPT Rotor 2: DF=0.912  DeH=0.812  ψ=2.45  φ=1.07  ✗
+  LPT Rotor 3 tip: U=244.3m/s  M1r=0.480  ✓ subsonic tip
+  LPT Rotor 3: DF=0.819  DeH=0.844  ψ=2.38  φ=1.11  ✗
+  LPT Rotor 4 tip: U=251.6m/s  M1r=0.514  ✓ subsonic tip
+  LPT Rotor 4: DF=0.726  DeH=0.876  ψ=2.30  φ=1.15  ✗
+  LPT Rotor 5 tip: U=259.1m/s  M1r=0.550  ✓ subsonic tip
+  LPT Rotor 5: DF=0.643  DeH=0.908  ψ=2.23  φ=1.18  ✗
+  LPT Rotor 6 tip: U=266.9m/s  M1r=0.591  ✓ subsonic tip
+  LPT Rotor 6: DF=0.566  DeH=0.939  ψ=2.16  φ=1.22  ✗
+  LPT Rotor 7 tip: U=274.9m/s  M1r=0.635  ✓ subsonic tip
+  LPT Rotor 7: DF=0.495  DeH=0.968  ψ=2.08  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+  ✗ Aero check failed — adjusting blade loading...
+
+▀▀▀▀▀ GLOBAL ITERATION 2 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.547  ε_cool=0.0725  T45_mix=1696K
+  [Iter 0] Thrust=150000N  TSFC=30.63  T4=1750K  BPR=15.0  OPR=41.7  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.547  ε_cool=0.0725  T45_mix=1696K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.555  ε_cool=0.0749  T45_mix=1694K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=1986.24kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=1986.24kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=816.0K  Pt=1515.7kPa  ṁ=124.14kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1455.1kPa  ṁ=128.73kg/s  γ=1.256  f=0.03700
+  S5 [LPT exit]: Tt=844.9K  Pt=37.4kPa  ṁ=128.73kg/s  γ=1.287  f=0.03700
+  S8 [Core nozzle exit]: Tt=844.9K  Pt=37.4kPa  ṁ=128.73kg/s  γ=1.301  f=0.03700
+  S13 [Bypass exit]: Tt=286.0K  Pt=56.3kPa  ṁ=1862.10kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=286.0K  Pt=56.3kPa  ṁ=1862.10kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=382.5K  Pt=140.8kPa  ṁ=128.73kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1379.7K  Pt=418.0kPa  ṁ=128.73kg/s  γ=1.265  f=0.03700
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              30.63 g/(kN·s)
+  Thermal η:         21.6%
+  Propulsive η:      85.2%
+  Overall η:         18.4%
+  Specific Thrust:   75.5 N·s/kg
+  Core ṁ:            124.14 kg/s
+  Bypass ṁ:          1862.10 kg/s
+  Fuel flow:         4.594 kg/s
+  Fan diameter:      5952 mm
+  Core diameter:     3571 mm
+  HPT coolant frac:  ε=0.0725  ṁ_cool=9.003 kg/s
+  HPT mixed T45:     1695.6 K
+  ⚠ WARNINGS:
+    - Fan diameter 5.95m is very large — consider geared turbofan
+    - TSFC=30.6 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1284 RPM  |  HP spool: 2407 RPM
+  Fan Rotor: r_hub=892.7mm  r_tip=2975.8mm  N_blades=183  PR=1.550  ΔT=37.7K  DeHaller=0.70  ψ=0.56  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=937.4mm  r_tip=1339.1mm  N_blades=265  PR=1.257  ΔT=21.6K  DeHaller=0.76  ψ=0.92  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=965.5mm  r_tip=1312.3mm  N_blades=265  PR=1.257  ΔT=23.2K  DeHaller=0.76  ψ=1.00  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=994.5mm  r_tip=1286.1mm  N_blades=267  PR=1.257  ΔT=24.9K  DeHaller=0.76  ψ=1.07  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1024.3mm  r_tip=1260.4mm  N_blades=267  PR=1.257  ΔT=26.8K  DeHaller=0.77  ψ=1.15  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1076.1mm  r_tip=1173.4mm  N_blades=395  PR=1.268  ΔT=30.1K  DeHaller=0.73  ψ=0.38  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1097.6mm  r_tip=1155.8mm  N_blades=397  PR=1.268  ΔT=32.5K  DeHaller=0.71  ψ=0.41  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1119.6mm  r_tip=1138.5mm  N_blades=397  PR=1.268  ΔT=35.0K  DeHaller=0.68  ψ=0.44  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1142.0mm  r_tip=1121.4mm  N_blades=399  PR=1.268  ΔT=37.8K  DeHaller=0.65  ψ=0.48  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1164.8mm  r_tip=1104.6mm  N_blades=399  PR=1.268  ΔT=40.8K  DeHaller=0.62  ψ=0.51  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1188.1mm  r_tip=1088.0mm  N_blades=401  PR=1.268  ΔT=44.0K  DeHaller=0.59  ψ=0.55  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1211.9mm  r_tip=1071.7mm  N_blades=401  PR=1.268  ΔT=47.4K  DeHaller=0.55  ψ=0.60  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1236.1mm  r_tip=1055.6mm  N_blades=403  PR=1.268  ΔT=51.2K  DeHaller=0.51  ψ=0.64  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1260.9mm  r_tip=1039.8mm  N_blades=405  PR=1.268  ΔT=55.2K  DeHaller=0.48  ψ=0.69  mat=Inconel 718
+  HPC Rotor 10: r_hub=1286.1mm  r_tip=1024.2mm  N_blades=407  PR=1.268  ΔT=59.5K  DeHaller=0.44  ψ=0.75  mat=Inconel 718
+  HPT Rotor 1: r_hub=1246.2mm  r_tip=1412.3mm  N_blades=187  PR=0.000  ΔT=-185.1K  DeHaller=0.86  ψ=2.24  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1246.2mm  r_tip=1482.9mm  N_blades=193  PR=0.000  ΔT=-185.1K  DeHaller=0.96  ψ=2.07  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1183.9mm  r_tip=1712.8mm  N_blades=155  PR=0.000  ΔT=-76.4K  DeHaller=0.76  ψ=2.59  mat=Inconel 718
+  LPT Rotor 2: r_hub=1160.2mm  r_tip=1764.2mm  N_blades=157  PR=0.000  ΔT=-76.4K  DeHaller=0.79  ψ=2.52  mat=Inconel 718
+  LPT Rotor 3: r_hub=1137.0mm  r_tip=1817.1mm  N_blades=157  PR=0.000  ΔT=-76.4K  DeHaller=0.82  ψ=2.44  mat=Inconel 718
+  LPT Rotor 4: r_hub=1114.3mm  r_tip=1871.6mm  N_blades=159  PR=0.000  ΔT=-76.4K  DeHaller=0.85  ψ=2.36  mat=Inconel 718
+  LPT Rotor 5: r_hub=1092.0mm  r_tip=1927.8mm  N_blades=161  PR=0.000  ΔT=-76.4K  DeHaller=0.89  ψ=2.29  mat=Inconel 718
+  LPT Rotor 6: r_hub=1070.1mm  r_tip=1985.6mm  N_blades=163  PR=0.000  ΔT=-76.4K  DeHaller=0.92  ψ=2.21  mat=Ti-6Al-4V
+  LPT Rotor 7: r_hub=1048.7mm  r_tip=2045.2mm  N_blades=165  PR=0.000  ΔT=-76.4K  DeHaller=0.95  ψ=2.13  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=10 HPT=2 LPT=7
+  Engine length: 2042 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.481  DeH=0.703  ψ=0.56  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.769  ✓ subsonic tip
+  LPC Rotor 1: DF=0.467  DeH=0.764  ψ=0.92  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.735  ✓ subsonic tip
+  LPC Rotor 2: DF=0.487  DeH=0.762  ψ=1.00  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.702  ✓ subsonic tip
+  LPC Rotor 3: DF=0.503  DeH=0.763  ψ=1.07  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.670  ✓ subsonic tip
+  LPC Rotor 4: DF=0.520  DeH=0.767  ψ=1.15  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.879  ✓ subsonic tip
+  HPC Rotor 1: DF=0.389  DeH=0.730  ψ=0.38  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.830  ✓ subsonic tip
+  HPC Rotor 2: DF=0.428  DeH=0.705  ψ=0.41  φ=0.55  ✓
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.784  ✓ subsonic tip
+  HPC Rotor 3: DF=0.473  DeH=0.679  ψ=0.44  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.741  ✓ subsonic tip
+  HPC Rotor 4: DF=0.522  DeH=0.650  ψ=0.48  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.700  ✓ subsonic tip
+  HPC Rotor 5: DF=0.577  DeH=0.619  ψ=0.51  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.661  ✓ subsonic tip
+  HPC Rotor 6: DF=0.637  DeH=0.586  ψ=0.55  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.624  ✓ subsonic tip
+  HPC Rotor 7: DF=0.705  DeH=0.551  ψ=0.60  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.589  ✓ subsonic tip
+  HPC Rotor 8: DF=0.779  DeH=0.514  ψ=0.64  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.556  ✓ subsonic tip
+  HPC Rotor 9: DF=0.861  DeH=0.476  ψ=0.69  φ=0.41  ✗
+  HPC Rotor 10 tip: U=258.1m/s  M1r=0.525  ✓ subsonic tip
+  HPC Rotor 10: DF=0.951  DeH=0.436  ψ=0.75  φ=0.40  ✗
+  HPT Rotor 1 tip: U=356.0m/s  M1r=0.532  ✓ subsonic tip
+  HPT Rotor 1: DF=1.001  DeH=0.863  ψ=2.24  φ=0.75  ✗
+  HPT Rotor 2 tip: U=373.8m/s  M1r=0.581  ✓ subsonic tip
+  HPT Rotor 2: DF=0.932  DeH=0.957  ψ=2.07  φ=0.73  ✗
+  LPT Rotor 1 tip: U=230.2m/s  M1r=0.420  ✓ subsonic tip
+  LPT Rotor 1: DF=1.047  DeH=0.756  ψ=2.59  φ=1.03  ✗
+  LPT Rotor 2 tip: U=237.1m/s  M1r=0.449  ✓ subsonic tip
+  LPT Rotor 2: DF=0.933  DeH=0.789  ψ=2.52  φ=1.07  ✗
+  LPT Rotor 3 tip: U=244.3m/s  M1r=0.480  ✓ subsonic tip
+  LPT Rotor 3: DF=0.840  DeH=0.821  ψ=2.44  φ=1.11  ✗
+  LPT Rotor 4 tip: U=251.6m/s  M1r=0.514  ✓ subsonic tip
+  LPT Rotor 4: DF=0.748  DeH=0.854  ψ=2.36  φ=1.15  ✗
+  LPT Rotor 5 tip: U=259.1m/s  M1r=0.551  ✓ subsonic tip
+  LPT Rotor 5: DF=0.665  DeH=0.886  ψ=2.29  φ=1.18  ✗
+  LPT Rotor 6 tip: U=266.9m/s  M1r=0.592  ✓ subsonic tip
+  LPT Rotor 6: DF=0.588  DeH=0.918  ψ=2.21  φ=1.22  ✗
+  LPT Rotor 7 tip: U=274.9m/s  M1r=0.637  ✓ subsonic tip
+  LPT Rotor 7: DF=0.517  DeH=0.948  ψ=2.13  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+  ✗ Aero check failed — adjusting blade loading...
+
+▀▀▀▀▀ GLOBAL ITERATION 3 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.542  ε_cool=0.0709  T45_mix=1697K
+  [Iter 0] Thrust=150000N  TSFC=31.70  T4=1750K  BPR=15.0  OPR=40.5  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.542  ε_cool=0.0709  T45_mix=1697K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.550  ε_cool=0.0732  T45_mix=1695K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=2046.97kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=2046.97kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=811.5K  Pt=1470.2kPa  ṁ=127.94kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1411.4kPa  ṁ=132.69kg/s  γ=1.256  f=0.03716
+  S5 [LPT exit]: Tt=836.0K  Pt=34.3kPa  ṁ=132.69kg/s  γ=1.287  f=0.03716
+  S8 [Core nozzle exit]: Tt=836.0K  Pt=34.3kPa  ṁ=132.69kg/s  γ=1.301  f=0.03716
+  S13 [Bypass exit]: Tt=287.2K  Pt=56.3kPa  ṁ=1919.03kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=287.2K  Pt=56.3kPa  ṁ=1919.03kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=384.1K  Pt=140.8kPa  ṁ=132.69kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1385.1K  Pt=413.5kPa  ṁ=132.69kg/s  γ=1.265  f=0.03716
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              31.70 g/(kN·s)
+  Thermal η:         20.5%
+  Propulsive η:      86.7%
+  Overall η:         17.8%
+  Specific Thrust:   73.3 N·s/kg
+  Core ṁ:            127.94 kg/s
+  Bypass ṁ:          1919.03 kg/s
+  Fuel flow:         4.754 kg/s
+  Fan diameter:      6042 mm
+  Core diameter:     3625 mm
+  HPT coolant frac:  ε=0.0709  ṁ_cool=9.071 kg/s
+  HPT mixed T45:     1696.7 K
+  ⚠ WARNINGS:
+    - Fan diameter 6.04m is very large — consider geared turbofan
+    - TSFC=31.7 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1264 RPM  |  HP spool: 2371 RPM
+  Fan Rotor: r_hub=906.3mm  r_tip=3020.9mm  N_blades=185  PR=1.550  ΔT=39.0K  DeHaller=0.70  ψ=0.58  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=951.6mm  r_tip=1359.4mm  N_blades=269  PR=1.257  ΔT=21.7K  DeHaller=0.76  ψ=0.93  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=980.1mm  r_tip=1332.2mm  N_blades=269  PR=1.257  ΔT=23.3K  DeHaller=0.76  ψ=1.00  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=1009.6mm  r_tip=1305.6mm  N_blades=271  PR=1.257  ΔT=25.1K  DeHaller=0.76  ψ=1.08  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1039.8mm  r_tip=1279.5mm  N_blades=271  PR=1.257  ΔT=26.9K  DeHaller=0.77  ψ=1.16  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1092.5mm  r_tip=1191.2mm  N_blades=401  PR=1.298  ΔT=33.3K  DeHaller=0.70  ψ=0.42  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1114.3mm  r_tip=1173.3mm  N_blades=403  PR=1.298  ΔT=36.2K  DeHaller=0.68  ψ=0.46  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1136.6mm  r_tip=1155.7mm  N_blades=403  PR=1.298  ΔT=39.3K  DeHaller=0.64  ψ=0.50  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1159.3mm  r_tip=1138.4mm  N_blades=405  PR=1.298  ΔT=42.7K  DeHaller=0.61  ψ=0.54  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1182.5mm  r_tip=1121.3mm  N_blades=405  PR=1.298  ΔT=46.4K  DeHaller=0.58  ψ=0.59  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1206.2mm  r_tip=1104.5mm  N_blades=407  PR=1.298  ΔT=50.4K  DeHaller=0.54  ψ=0.64  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1230.3mm  r_tip=1087.9mm  N_blades=407  PR=1.298  ΔT=54.8K  DeHaller=0.50  ψ=0.69  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1254.9mm  r_tip=1071.6mm  N_blades=409  PR=1.298  ΔT=59.6K  DeHaller=0.46  ψ=0.75  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1280.0mm  r_tip=1055.5mm  N_blades=411  PR=1.298  ΔT=64.7K  DeHaller=0.42  ψ=0.82  mat=Inconel 718
+  HPT Rotor 1: r_hub=1240.3mm  r_tip=1455.6mm  N_blades=191  PR=0.000  ΔT=-182.4K  DeHaller=0.88  ψ=2.21  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1240.3mm  r_tip=1528.4mm  N_blades=195  PR=0.000  ΔT=-182.4K  DeHaller=0.97  ψ=2.04  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1178.3mm  r_tip=1765.3mm  N_blades=157  PR=0.000  ΔT=-78.4K  DeHaller=0.73  ψ=2.66  mat=Inconel 718
+  LPT Rotor 2: r_hub=1154.7mm  r_tip=1818.2mm  N_blades=159  PR=0.000  ΔT=-78.4K  DeHaller=0.77  ψ=2.58  mat=Inconel 718
+  LPT Rotor 3: r_hub=1131.6mm  r_tip=1872.8mm  N_blades=161  PR=0.000  ΔT=-78.4K  DeHaller=0.80  ψ=2.50  mat=Inconel 718
+  LPT Rotor 4: r_hub=1109.0mm  r_tip=1928.9mm  N_blades=163  PR=0.000  ΔT=-78.4K  DeHaller=0.83  ψ=2.42  mat=Inconel 718
+  LPT Rotor 5: r_hub=1086.8mm  r_tip=1986.8mm  N_blades=165  PR=0.000  ΔT=-78.4K  DeHaller=0.87  ψ=2.34  mat=Inconel 718
+  LPT Rotor 6: r_hub=1065.1mm  r_tip=2046.4mm  N_blades=167  PR=0.000  ΔT=-78.4K  DeHaller=0.90  ψ=2.26  mat=Ti-6Al-4V
+  LPT Rotor 7: r_hub=1043.8mm  r_tip=2107.8mm  N_blades=169  PR=0.000  ΔT=-78.4K  DeHaller=0.93  ψ=2.18  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=2 LPT=7
+  Engine length: 2013 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.495  DeH=0.696  ψ=0.58  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.768  ✓ subsonic tip
+  LPC Rotor 1: DF=0.469  DeH=0.763  ψ=0.93  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.733  ✓ subsonic tip
+  LPC Rotor 2: DF=0.488  DeH=0.762  ψ=1.00  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.700  ✓ subsonic tip
+  LPC Rotor 3: DF=0.504  DeH=0.763  ψ=1.08  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.669  ✓ subsonic tip
+  LPC Rotor 4: DF=0.521  DeH=0.768  ψ=1.16  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.877  ✓ subsonic tip
+  HPC Rotor 1: DF=0.427  DeH=0.704  ψ=0.42  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.826  ✓ subsonic tip
+  HPC Rotor 2: DF=0.473  DeH=0.676  ψ=0.46  φ=0.55  ✗
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.777  ✓ subsonic tip
+  HPC Rotor 3: DF=0.526  DeH=0.645  ψ=0.50  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.731  ✓ subsonic tip
+  HPC Rotor 4: DF=0.584  DeH=0.611  ψ=0.54  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.688  ✓ subsonic tip
+  HPC Rotor 5: DF=0.649  DeH=0.575  ψ=0.59  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.648  ✓ subsonic tip
+  HPC Rotor 6: DF=0.720  DeH=0.537  ψ=0.64  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.609  ✓ subsonic tip
+  HPC Rotor 7: DF=0.800  DeH=0.498  ψ=0.69  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.573  ✓ subsonic tip
+  HPC Rotor 8: DF=0.886  DeH=0.457  ψ=0.75  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.539  ✓ subsonic tip
+  HPC Rotor 9: DF=0.979  DeH=0.418  ψ=0.82  φ=0.41  ✗
+  HPT Rotor 1 tip: U=361.4m/s  M1r=0.537  ✓ subsonic tip
+  HPT Rotor 1: DF=0.984  DeH=0.877  ψ=2.21  φ=0.75  ✗
+  HPT Rotor 2 tip: U=379.4m/s  M1r=0.587  ✓ subsonic tip
+  HPT Rotor 2: DF=0.923  DeH=0.973  ψ=2.04  φ=0.73  ✗
+  LPT Rotor 1 tip: U=233.7m/s  M1r=0.423  ✓ subsonic tip
+  LPT Rotor 1: DF=1.069  DeH=0.734  ψ=2.66  φ=1.03  ✗
+  LPT Rotor 2 tip: U=240.7m/s  M1r=0.452  ✓ subsonic tip
+  LPT Rotor 2: DF=0.955  DeH=0.767  ψ=2.58  φ=1.07  ✗
+  LPT Rotor 3 tip: U=248.0m/s  M1r=0.484  ✓ subsonic tip
+  LPT Rotor 3: DF=0.855  DeH=0.801  ψ=2.50  φ=1.11  ✗
+  LPT Rotor 4 tip: U=255.4m/s  M1r=0.518  ✓ subsonic tip
+  LPT Rotor 4: DF=0.764  DeH=0.834  ψ=2.42  φ=1.14  ✗
+  LPT Rotor 5 tip: U=263.1m/s  M1r=0.556  ✓ subsonic tip
+  LPT Rotor 5: DF=0.680  DeH=0.868  ψ=2.34  φ=1.18  ✗
+  LPT Rotor 6 tip: U=271.0m/s  M1r=0.598  ✓ subsonic tip
+  LPT Rotor 6: DF=0.604  DeH=0.901  ψ=2.26  φ=1.21  ✗
+  LPT Rotor 7 tip: U=279.1m/s  M1r=0.645  ✓ subsonic tip
+  LPT Rotor 7: DF=0.532  DeH=0.933  ψ=2.18  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+  ✗ Aero check failed — adjusting blade loading...
+
+▀▀▀▀▀ GLOBAL ITERATION 4 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.536  ε_cool=0.0694  T45_mix=1698K
+  [Iter 0] Thrust=150000N  TSFC=33.12  T4=1750K  BPR=15.0  OPR=39.2  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.536  ε_cool=0.0694  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.544  ε_cool=0.0717  T45_mix=1696K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=2130.39kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=2130.39kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=807.3K  Pt=1426.1kPa  ṁ=133.15kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1369.1kPa  ṁ=138.12kg/s  γ=1.256  f=0.03731
+  S5 [LPT exit]: Tt=825.9K  Pt=31.3kPa  ṁ=138.12kg/s  γ=1.287  f=0.03731
+  S8 [Core nozzle exit]: Tt=825.9K  Pt=31.3kPa  ṁ=138.12kg/s  γ=1.302  f=0.03731
+  S13 [Bypass exit]: Tt=288.5K  Pt=56.3kPa  ṁ=1997.24kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=288.5K  Pt=56.3kPa  ṁ=1997.24kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=385.9K  Pt=140.8kPa  ṁ=138.12kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1390.3K  Pt=408.8kPa  ṁ=138.12kg/s  γ=1.264  f=0.03731
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              33.12 g/(kN·s)
+  Thermal η:         19.3%
+  Propulsive η:      88.0%
+  Overall η:         17.0%
+  Specific Thrust:   70.4 N·s/kg
+  Core ṁ:            133.15 kg/s
+  Bypass ṁ:          1997.24 kg/s
+  Fuel flow:         4.968 kg/s
+  Fan diameter:      6164 mm
+  Core diameter:     3698 mm
+  HPT coolant frac:  ε=0.0694  ṁ_cool=9.245 kg/s
+  HPT mixed T45:     1697.6 K
+  ⚠ WARNINGS:
+    - Fan diameter 6.16m is very large — consider geared turbofan
+    - TSFC=33.1 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1239 RPM  |  HP spool: 2324 RPM
+  Fan Rotor: r_hub=924.6mm  r_tip=3081.9mm  N_blades=189  PR=1.550  ΔT=40.2K  DeHaller=0.69  ψ=0.60  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=970.8mm  r_tip=1386.9mm  N_blades=275  PR=1.257  ΔT=21.8K  DeHaller=0.76  ψ=0.93  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=999.9mm  r_tip=1359.1mm  N_blades=275  PR=1.257  ΔT=23.4K  DeHaller=0.76  ψ=1.00  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=1029.9mm  r_tip=1331.9mm  N_blades=275  PR=1.257  ΔT=25.2K  DeHaller=0.76  ψ=1.08  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1060.8mm  r_tip=1305.3mm  N_blades=277  PR=1.257  ΔT=27.1K  DeHaller=0.77  ψ=1.16  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1114.5mm  r_tip=1215.2mm  N_blades=409  PR=1.293  ΔT=33.0K  DeHaller=0.71  ψ=0.42  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1136.8mm  r_tip=1197.0mm  N_blades=411  PR=1.293  ΔT=35.8K  DeHaller=0.68  ψ=0.45  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1159.5mm  r_tip=1179.0mm  N_blades=411  PR=1.293  ΔT=38.9K  DeHaller=0.65  ψ=0.49  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1182.7mm  r_tip=1161.4mm  N_blades=413  PR=1.293  ΔT=42.2K  DeHaller=0.62  ψ=0.53  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1206.4mm  r_tip=1143.9mm  N_blades=413  PR=1.293  ΔT=45.8K  DeHaller=0.58  ψ=0.58  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1230.5mm  r_tip=1126.8mm  N_blades=415  PR=1.293  ΔT=49.7K  DeHaller=0.54  ψ=0.63  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1255.1mm  r_tip=1109.9mm  N_blades=417  PR=1.293  ΔT=54.0K  DeHaller=0.50  ψ=0.68  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1280.2mm  r_tip=1093.2mm  N_blades=417  PR=1.293  ΔT=58.6K  DeHaller=0.46  ψ=0.74  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1305.8mm  r_tip=1076.8mm  N_blades=419  PR=1.293  ΔT=63.6K  DeHaller=0.42  ψ=0.80  mat=Inconel 718
+  HPT Rotor 1: r_hub=1265.3mm  r_tip=1484.9mm  N_blades=195  PR=0.000  ΔT=-179.8K  DeHaller=0.89  ψ=2.18  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1265.3mm  r_tip=1559.2mm  N_blades=199  PR=0.000  ΔT=-179.8K  DeHaller=0.99  ψ=2.01  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1202.1mm  r_tip=1800.9mm  N_blades=161  PR=0.000  ΔT=-80.6K  DeHaller=0.71  ψ=2.74  mat=Inconel 718
+  LPT Rotor 2: r_hub=1178.0mm  r_tip=1854.9mm  N_blades=161  PR=0.000  ΔT=-80.6K  DeHaller=0.74  ψ=2.65  mat=Inconel 718
+  LPT Rotor 3: r_hub=1154.5mm  r_tip=1910.5mm  N_blades=163  PR=0.000  ΔT=-80.6K  DeHaller=0.78  ψ=2.57  mat=Inconel 718
+  LPT Rotor 4: r_hub=1131.4mm  r_tip=1967.9mm  N_blades=165  PR=0.000  ΔT=-80.6K  DeHaller=0.81  ψ=2.49  mat=Inconel 718
+  LPT Rotor 5: r_hub=1108.7mm  r_tip=2026.9mm  N_blades=167  PR=0.000  ΔT=-80.6K  DeHaller=0.84  ψ=2.40  mat=Inconel 718
+  LPT Rotor 6: r_hub=1086.6mm  r_tip=2087.7mm  N_blades=169  PR=0.000  ΔT=-80.6K  DeHaller=0.88  ψ=2.32  mat=Ti-6Al-4V
+  LPT Rotor 7: r_hub=1064.8mm  r_tip=2150.3mm  N_blades=171  PR=0.000  ΔT=-80.6K  DeHaller=0.91  ψ=2.23  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=2 LPT=7
+  Engine length: 2013 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.508  DeH=0.689  ψ=0.60  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.766  ✓ subsonic tip
+  LPC Rotor 1: DF=0.469  DeH=0.763  ψ=0.93  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.731  ✓ subsonic tip
+  LPC Rotor 2: DF=0.489  DeH=0.762  ψ=1.00  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.698  ✓ subsonic tip
+  LPC Rotor 3: DF=0.507  DeH=0.763  ψ=1.08  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.667  ✓ subsonic tip
+  LPC Rotor 4: DF=0.521  DeH=0.768  ψ=1.16  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.875  ✓ subsonic tip
+  HPC Rotor 1: DF=0.423  DeH=0.707  ψ=0.42  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.824  ✓ subsonic tip
+  HPC Rotor 2: DF=0.469  DeH=0.679  ψ=0.45  φ=0.55  ✗
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.776  ✓ subsonic tip
+  HPC Rotor 3: DF=0.521  DeH=0.648  ψ=0.49  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.731  ✓ subsonic tip
+  HPC Rotor 4: DF=0.578  DeH=0.615  ψ=0.53  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.688  ✓ subsonic tip
+  HPC Rotor 5: DF=0.642  DeH=0.580  ψ=0.58  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.648  ✓ subsonic tip
+  HPC Rotor 6: DF=0.711  DeH=0.543  ψ=0.63  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.610  ✓ subsonic tip
+  HPC Rotor 7: DF=0.788  DeH=0.503  ψ=0.68  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.574  ✓ subsonic tip
+  HPC Rotor 8: DF=0.874  DeH=0.463  ψ=0.74  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.540  ✓ subsonic tip
+  HPC Rotor 9: DF=0.967  DeH=0.423  ψ=0.80  φ=0.41  ✗
+  HPT Rotor 1 tip: U=361.4m/s  M1r=0.537  ✓ subsonic tip
+  HPT Rotor 1: DF=0.971  DeH=0.894  ψ=2.18  φ=0.75  ✗
+  HPT Rotor 2 tip: U=379.4m/s  M1r=0.586  ✓ subsonic tip
+  HPT Rotor 2: DF=0.909  DeH=0.991  ψ=2.01  φ=0.73  ✗
+  LPT Rotor 1 tip: U=233.7m/s  M1r=0.422  ✓ subsonic tip
+  LPT Rotor 1: DF=1.085  DeH=0.710  ψ=2.74  φ=1.03  ✗
+  LPT Rotor 2 tip: U=240.7m/s  M1r=0.451  ✓ subsonic tip
+  LPT Rotor 2: DF=0.982  DeH=0.743  ψ=2.65  φ=1.07  ✗
+  LPT Rotor 3 tip: U=248.0m/s  M1r=0.483  ✓ subsonic tip
+  LPT Rotor 3: DF=0.882  DeH=0.777  ψ=2.57  φ=1.11  ✗
+  LPT Rotor 4 tip: U=255.4m/s  M1r=0.518  ✓ subsonic tip
+  LPT Rotor 4: DF=0.791  DeH=0.811  ψ=2.49  φ=1.14  ✗
+  LPT Rotor 5 tip: U=263.1m/s  M1r=0.557  ✓ subsonic tip
+  LPT Rotor 5: DF=0.708  DeH=0.844  ψ=2.40  φ=1.18  ✗
+  LPT Rotor 6 tip: U=271.0m/s  M1r=0.600  ✓ subsonic tip
+  LPT Rotor 6: DF=0.631  DeH=0.878  ψ=2.32  φ=1.21  ✗
+  LPT Rotor 7 tip: U=279.1m/s  M1r=0.648  ✓ subsonic tip
+  LPT Rotor 7: DF=0.560  DeH=0.911  ψ=2.23  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+  ✗ Aero check failed — adjusting blade loading...
+
+▀▀▀▀▀ GLOBAL ITERATION 5 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.532  ε_cool=0.0681  T45_mix=1698K
+  [Iter 0] Thrust=150000N  TSFC=35.21  T4=1750K  BPR=15.0  OPR=38.1  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.532  ε_cool=0.0681  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.540  ε_cool=0.0703  T45_mix=1697K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=2256.32kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=2256.32kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=803.3K  Pt=1383.3kPa  ṁ=141.02kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1328.0kPa  ṁ=146.30kg/s  γ=1.256  f=0.03745
+  S5 [LPT exit]: Tt=814.6K  Pt=28.3kPa  ṁ=146.30kg/s  γ=1.287  f=0.03745
+  S8 [Core nozzle exit]: Tt=814.6K  Pt=28.3kPa  ṁ=146.30kg/s  γ=1.302  f=0.03745
+  S13 [Bypass exit]: Tt=289.8K  Pt=56.3kPa  ṁ=2115.30kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=289.8K  Pt=56.3kPa  ṁ=2115.30kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=387.7K  Pt=140.8kPa  ṁ=146.30kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1395.4K  Pt=403.8kPa  ṁ=146.30kg/s  γ=1.264  f=0.03745
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              35.21 g/(kN·s)
+  Thermal η:         18.1%
+  Propulsive η:      88.6%
+  Overall η:         16.0%
+  Specific Thrust:   66.5 N·s/kg
+  Core ṁ:            141.02 kg/s
+  Bypass ṁ:          2115.30 kg/s
+  Fuel flow:         5.281 kg/s
+  Fan diameter:      6343 mm
+  Core diameter:     3806 mm
+  HPT coolant frac:  ε=0.0681  ṁ_cool=9.604 kg/s
+  HPT mixed T45:     1698.4 K
+  ⚠ WARNINGS:
+    - Fan diameter 6.34m is very large — consider geared turbofan
+    - TSFC=35.2 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1204 RPM  |  HP spool: 2258 RPM
+  Fan Rotor: r_hub=951.5mm  r_tip=3171.7mm  N_blades=195  PR=1.550  ΔT=41.6K  DeHaller=0.68  ψ=0.62  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=999.1mm  r_tip=1427.3mm  N_blades=283  PR=1.257  ΔT=21.9K  DeHaller=0.76  ψ=0.94  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=1029.0mm  r_tip=1398.7mm  N_blades=283  PR=1.257  ΔT=23.5K  DeHaller=0.76  ψ=1.01  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=1059.9mm  r_tip=1370.7mm  N_blades=283  PR=1.257  ΔT=25.3K  DeHaller=0.76  ψ=1.09  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1091.7mm  r_tip=1343.3mm  N_blades=285  PR=1.257  ΔT=27.2K  DeHaller=0.77  ψ=1.17  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1147.0mm  r_tip=1250.6mm  N_blades=421  PR=1.289  ΔT=32.7K  DeHaller=0.71  ψ=0.41  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1169.9mm  r_tip=1231.9mm  N_blades=423  PR=1.289  ΔT=35.4K  DeHaller=0.68  ψ=0.45  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1193.3mm  r_tip=1213.4mm  N_blades=423  PR=1.289  ΔT=38.4K  DeHaller=0.65  ψ=0.49  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1217.2mm  r_tip=1195.2mm  N_blades=425  PR=1.289  ΔT=41.7K  DeHaller=0.62  ψ=0.53  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1241.5mm  r_tip=1177.3mm  N_blades=425  PR=1.289  ΔT=45.2K  DeHaller=0.58  ψ=0.57  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1266.3mm  r_tip=1159.6mm  N_blades=427  PR=1.289  ΔT=49.0K  DeHaller=0.55  ψ=0.62  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1291.7mm  r_tip=1142.2mm  N_blades=429  PR=1.289  ΔT=53.1K  DeHaller=0.51  ψ=0.67  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1317.5mm  r_tip=1125.1mm  N_blades=429  PR=1.289  ΔT=57.6K  DeHaller=0.47  ψ=0.73  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1343.8mm  r_tip=1108.2mm  N_blades=431  PR=1.289  ΔT=62.5K  DeHaller=0.43  ψ=0.79  mat=Inconel 718
+  HPT Rotor 1: r_hub=1302.2mm  r_tip=1528.2mm  N_blades=201  PR=0.000  ΔT=-177.3K  DeHaller=0.91  ψ=2.15  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1302.2mm  r_tip=1604.6mm  N_blades=205  PR=0.000  ΔT=-177.3K  DeHaller=1.01  ψ=1.99  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1237.1mm  r_tip=1853.3mm  N_blades=165  PR=0.000  ΔT=-83.0K  DeHaller=0.69  ψ=2.82  mat=Inconel 718
+  LPT Rotor 2: r_hub=1212.3mm  r_tip=1908.9mm  N_blades=167  PR=0.000  ΔT=-83.0K  DeHaller=0.72  ψ=2.73  mat=Inconel 718
+  LPT Rotor 3: r_hub=1188.1mm  r_tip=1966.2mm  N_blades=169  PR=0.000  ΔT=-83.0K  DeHaller=0.75  ψ=2.64  mat=Inconel 718
+  LPT Rotor 4: r_hub=1164.3mm  r_tip=2025.2mm  N_blades=171  PR=0.000  ΔT=-83.0K  DeHaller=0.79  ψ=2.56  mat=Inconel 718
+  LPT Rotor 5: r_hub=1141.0mm  r_tip=2085.9mm  N_blades=173  PR=0.000  ΔT=-83.0K  DeHaller=0.82  ψ=2.47  mat=Inconel 718
+  LPT Rotor 6: r_hub=1118.2mm  r_tip=2148.5mm  N_blades=175  PR=0.000  ΔT=-83.0K  DeHaller=0.85  ψ=2.38  mat=Ti-6Al-4V
+  LPT Rotor 7: r_hub=1095.9mm  r_tip=2213.0mm  N_blades=177  PR=0.000  ΔT=-83.0K  DeHaller=0.89  ψ=2.30  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=2 LPT=7
+  Engine length: 2013 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.521  DeH=0.681  ψ=0.62  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.764  ✓ subsonic tip
+  LPC Rotor 1: DF=0.471  DeH=0.763  ψ=0.94  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.730  ✓ subsonic tip
+  LPC Rotor 2: DF=0.490  DeH=0.762  ψ=1.01  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.697  ✓ subsonic tip
+  LPC Rotor 3: DF=0.508  DeH=0.763  ψ=1.09  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.666  ✓ subsonic tip
+  LPC Rotor 4: DF=0.522  DeH=0.769  ψ=1.17  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.873  ✓ subsonic tip
+  HPC Rotor 1: DF=0.420  DeH=0.709  ψ=0.41  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.823  ✓ subsonic tip
+  HPC Rotor 2: DF=0.465  DeH=0.681  ψ=0.45  φ=0.55  ✗
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.775  ✓ subsonic tip
+  HPC Rotor 3: DF=0.516  DeH=0.651  ψ=0.49  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.730  ✓ subsonic tip
+  HPC Rotor 4: DF=0.571  DeH=0.619  ψ=0.53  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.688  ✓ subsonic tip
+  HPC Rotor 5: DF=0.634  DeH=0.584  ψ=0.57  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.648  ✓ subsonic tip
+  HPC Rotor 6: DF=0.702  DeH=0.548  ψ=0.62  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.610  ✓ subsonic tip
+  HPC Rotor 7: DF=0.778  DeH=0.509  ψ=0.67  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.575  ✓ subsonic tip
+  HPC Rotor 8: DF=0.863  DeH=0.469  ψ=0.73  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.541  ✓ subsonic tip
+  HPC Rotor 9: DF=0.954  DeH=0.429  ψ=0.79  φ=0.41  ✗
+  HPT Rotor 1 tip: U=361.4m/s  M1r=0.537  ✓ subsonic tip
+  HPT Rotor 1: DF=0.957  DeH=0.910  ψ=2.15  φ=0.75  ✗
+  HPT Rotor 2 tip: U=379.4m/s  M1r=0.586  ✓ subsonic tip
+  HPT Rotor 2: DF=0.894  DeH=1.008  ψ=1.99  φ=0.73  ✗
+  LPT Rotor 1 tip: U=233.7m/s  M1r=0.421  ✓ subsonic tip
+  LPT Rotor 1: DF=1.108  DeH=0.686  ψ=2.82  φ=1.03  ✗
+  LPT Rotor 2 tip: U=240.7m/s  M1r=0.451  ✓ subsonic tip
+  LPT Rotor 2: DF=0.998  DeH=0.719  ψ=2.73  φ=1.07  ✗
+  LPT Rotor 3 tip: U=248.0m/s  M1r=0.483  ✓ subsonic tip
+  LPT Rotor 3: DF=0.900  DeH=0.752  ψ=2.64  φ=1.11  ✗
+  LPT Rotor 4 tip: U=255.4m/s  M1r=0.519  ✓ subsonic tip
+  LPT Rotor 4: DF=0.810  DeH=0.786  ψ=2.56  φ=1.14  ✗
+  LPT Rotor 5 tip: U=263.1m/s  M1r=0.558  ✓ subsonic tip
+  LPT Rotor 5: DF=0.728  DeH=0.820  ψ=2.47  φ=1.18  ✗
+  LPT Rotor 6 tip: U=271.0m/s  M1r=0.602  ✓ subsonic tip
+  LPT Rotor 6: DF=0.652  DeH=0.854  ψ=2.38  φ=1.21  ✗
+  LPT Rotor 7 tip: U=279.1m/s  M1r=0.651  ✓ subsonic tip
+  LPT Rotor 7: DF=0.581  DeH=0.888  ψ=2.30  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+  ✗ Aero check failed — adjusting blade loading...
+
+▀▀▀▀▀ GLOBAL ITERATION 6 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.527  ε_cool=0.0669  T45_mix=1699K
+  [Iter 0] Thrust=150000N  TSFC=39.12  T4=1750K  BPR=15.0  OPR=36.9  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.527  ε_cool=0.0669  T45_mix=1699K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.535  ε_cool=0.0691  T45_mix=1698K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=2497.98kg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=2497.98kg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=799.5K  Pt=1341.8kPa  ṁ=156.12kg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1288.2kPa  ṁ=161.99kg/s  γ=1.256  f=0.03758
+  S5 [LPT exit]: Tt=802.0K  Pt=25.3kPa  ṁ=161.99kg/s  γ=1.287  f=0.03758
+  S8 [Core nozzle exit]: Tt=802.0K  Pt=25.3kPa  ṁ=161.99kg/s  γ=1.303  f=0.03758
+  S13 [Bypass exit]: Tt=291.3K  Pt=56.3kPa  ṁ=2341.86kg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=291.3K  Pt=56.3kPa  ṁ=2341.86kg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=389.6K  Pt=140.8kPa  ṁ=161.99kg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1400.3K  Pt=398.7kPa  ṁ=161.99kg/s  γ=1.264  f=0.03758
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              39.12 g/(kN·s)
+  Thermal η:         16.7%
+  Propulsive η:      86.3%
+  Overall η:         14.4%
+  Specific Thrust:   60.0 N·s/kg
+  Core ṁ:            156.12 kg/s
+  Bypass ṁ:          2341.86 kg/s
+  Fuel flow:         5.867 kg/s
+  Fan diameter:      6674 mm
+  Core diameter:     4005 mm
+  HPT coolant frac:  ε=0.0669  ṁ_cool=10.446 kg/s
+  HPT mixed T45:     1699.2 K
+  ⚠ WARNINGS:
+    - Fan diameter 6.67m is very large — consider geared turbofan
+    - TSFC=39.1 g/(kN·s) is high — check cycle parameters
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: 1145 RPM  |  HP spool: 2146 RPM
+  Fan Rotor: r_hub=1001.2mm  r_tip=3337.2mm  N_blades=205  PR=1.550  ΔT=43.1K  DeHaller=0.67  ψ=0.64  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=1051.2mm  r_tip=1501.7mm  N_blades=297  PR=1.257  ΔT=22.0K  DeHaller=0.76  ψ=0.94  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=1082.8mm  r_tip=1471.7mm  N_blades=299  PR=1.257  ΔT=23.6K  DeHaller=0.76  ψ=1.01  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=1115.2mm  r_tip=1442.3mm  N_blades=299  PR=1.257  ΔT=25.4K  DeHaller=0.76  ψ=1.09  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=1148.7mm  r_tip=1413.4mm  N_blades=299  PR=1.257  ΔT=27.3K  DeHaller=0.77  ψ=1.17  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=1206.8mm  r_tip=1315.9mm  N_blades=443  PR=1.285  ΔT=32.4K  DeHaller=0.71  ψ=0.41  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=1231.0mm  r_tip=1296.2mm  N_blades=445  PR=1.285  ΔT=35.1K  DeHaller=0.68  ψ=0.44  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=1255.6mm  r_tip=1276.7mm  N_blades=445  PR=1.285  ΔT=38.0K  DeHaller=0.65  ψ=0.48  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=1280.7mm  r_tip=1257.6mm  N_blades=447  PR=1.285  ΔT=41.2K  DeHaller=0.62  ψ=0.52  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=1306.3mm  r_tip=1238.7mm  N_blades=447  PR=1.285  ΔT=44.6K  DeHaller=0.59  ψ=0.56  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=1332.4mm  r_tip=1220.1mm  N_blades=449  PR=1.285  ΔT=48.3K  DeHaller=0.55  ψ=0.61  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=1359.1mm  r_tip=1201.8mm  N_blades=451  PR=1.285  ΔT=52.3K  DeHaller=0.51  ψ=0.66  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=1386.3mm  r_tip=1183.8mm  N_blades=453  PR=1.285  ΔT=56.7K  DeHaller=0.48  ψ=0.72  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=1414.0mm  r_tip=1166.0mm  N_blades=453  PR=1.285  ΔT=61.4K  DeHaller=0.44  ψ=0.77  mat=Inconel 718
+  HPT Rotor 1: r_hub=1370.1mm  r_tip=1608.0mm  N_blades=211  PR=0.000  ΔT=-174.8K  DeHaller=0.93  ψ=2.12  mat=CMSX-4 + TBC
+  HPT Rotor 2: r_hub=1370.1mm  r_tip=1688.4mm  N_blades=217  PR=0.000  ΔT=-174.8K  DeHaller=1.03  ψ=1.96  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=1301.6mm  r_tip=1950.1mm  N_blades=173  PR=0.000  ΔT=-85.5K  DeHaller=0.66  ψ=2.91  mat=Inconel 718
+  LPT Rotor 2: r_hub=1275.6mm  r_tip=2008.6mm  N_blades=175  PR=0.000  ΔT=-85.5K  DeHaller=0.69  ψ=2.82  mat=Inconel 718
+  LPT Rotor 3: r_hub=1250.1mm  r_tip=2068.8mm  N_blades=177  PR=0.000  ΔT=-85.5K  DeHaller=0.73  ψ=2.73  mat=Inconel 718
+  LPT Rotor 4: r_hub=1225.1mm  r_tip=2130.9mm  N_blades=179  PR=0.000  ΔT=-85.5K  DeHaller=0.76  ψ=2.63  mat=Inconel 718
+  LPT Rotor 5: r_hub=1200.6mm  r_tip=2194.8mm  N_blades=181  PR=0.000  ΔT=-85.5K  DeHaller=0.80  ψ=2.54  mat=Inconel 718
+  LPT Rotor 6: r_hub=1176.6mm  r_tip=2260.7mm  N_blades=183  PR=0.000  ΔT=-85.5K  DeHaller=0.83  ψ=2.45  mat=Ti-6Al-4V
+  LPT Rotor 7: r_hub=1153.0mm  r_tip=2328.5mm  N_blades=185  PR=0.000  ΔT=-85.5K  DeHaller=0.86  ψ=2.36  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=2 LPT=7
+  Engine length: 2013 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor TIP SHOCK: U_tip=400.0m/s  V1r=447.2m/s  M1r=1.466  Δη=0.0255  ✗ SEVERE
+  Fan Rotor: DF=0.536  DeH=0.674  ψ=0.64  φ=0.77  ✗
+  LPC Rotor 1 tip: U=180.0m/s  M1r=0.762  ✓ subsonic tip
+  LPC Rotor 1: DF=0.473  DeH=0.763  ψ=0.94  φ=1.18  ✗
+  LPC Rotor 2 tip: U=176.4m/s  M1r=0.728  ✓ subsonic tip
+  LPC Rotor 2: DF=0.490  DeH=0.762  ψ=1.01  φ=1.18  ✗
+  LPC Rotor 3 tip: U=172.9m/s  M1r=0.695  ✓ subsonic tip
+  LPC Rotor 3: DF=0.508  DeH=0.764  ψ=1.09  φ=1.17  ✗
+  LPC Rotor 4 tip: U=169.4m/s  M1r=0.664  ✓ subsonic tip
+  LPC Rotor 4: DF=0.524  DeH=0.769  ψ=1.17  φ=1.17  ✗
+  HPC Rotor 1 tip: U=295.7m/s  M1r=0.871  ✓ subsonic tip
+  HPC Rotor 1: DF=0.416  DeH=0.711  ψ=0.41  φ=0.56  ✓
+  HPC Rotor 2 tip: U=291.3m/s  M1r=0.821  ✓ subsonic tip
+  HPC Rotor 2: DF=0.461  DeH=0.684  ψ=0.44  φ=0.55  ✗
+  HPC Rotor 3 tip: U=286.9m/s  M1r=0.774  ✓ subsonic tip
+  HPC Rotor 3: DF=0.511  DeH=0.655  ψ=0.48  φ=0.53  ✗
+  HPC Rotor 4 tip: U=282.6m/s  M1r=0.730  ✓ subsonic tip
+  HPC Rotor 4: DF=0.565  DeH=0.623  ψ=0.52  φ=0.51  ✗
+  HPC Rotor 5 tip: U=278.4m/s  M1r=0.688  ✓ subsonic tip
+  HPC Rotor 5: DF=0.627  DeH=0.589  ψ=0.56  φ=0.49  ✗
+  HPC Rotor 6 tip: U=274.2m/s  M1r=0.648  ✓ subsonic tip
+  HPC Rotor 6: DF=0.694  DeH=0.553  ψ=0.61  φ=0.47  ✗
+  HPC Rotor 7 tip: U=270.1m/s  M1r=0.611  ✓ subsonic tip
+  HPC Rotor 7: DF=0.768  DeH=0.515  ψ=0.66  φ=0.45  ✗
+  HPC Rotor 8 tip: U=266.0m/s  M1r=0.576  ✓ subsonic tip
+  HPC Rotor 8: DF=0.850  DeH=0.475  ψ=0.72  φ=0.43  ✗
+  HPC Rotor 9 tip: U=262.1m/s  M1r=0.542  ✓ subsonic tip
+  HPC Rotor 9: DF=0.942  DeH=0.435  ψ=0.77  φ=0.41  ✗
+  HPT Rotor 1 tip: U=361.4m/s  M1r=0.537  ✓ subsonic tip
+  HPT Rotor 1: DF=0.946  DeH=0.926  ψ=2.12  φ=0.75  ✗
+  HPT Rotor 2 tip: U=379.4m/s  M1r=0.585  ✓ subsonic tip
+  HPT Rotor 2: DF=0.875  DeH=1.026  ψ=1.96  φ=0.73  ✗
+  LPT Rotor 1 tip: U=233.7m/s  M1r=0.420  ✓ subsonic tip
+  LPT Rotor 1: DF=1.131  DeH=0.661  ψ=2.91  φ=1.03  ✗
+  LPT Rotor 2 tip: U=240.7m/s  M1r=0.450  ✓ subsonic tip
+  LPT Rotor 2: DF=1.023  DeH=0.694  ψ=2.82  φ=1.07  ✗
+  LPT Rotor 3 tip: U=248.0m/s  M1r=0.483  ✓ subsonic tip
+  LPT Rotor 3: DF=0.925  DeH=0.727  ψ=2.73  φ=1.11  ✗
+  LPT Rotor 4 tip: U=255.4m/s  M1r=0.520  ✓ subsonic tip
+  LPT Rotor 4: DF=0.837  DeH=0.761  ψ=2.63  φ=1.14  ✗
+  LPT Rotor 5 tip: U=263.1m/s  M1r=0.560  ✓ subsonic tip
+  LPT Rotor 5: DF=0.755  DeH=0.796  ψ=2.54  φ=1.18  ✗
+  LPT Rotor 6 tip: U=271.0m/s  M1r=0.604  ✓ subsonic tip
+  LPT Rotor 6: DF=0.679  DeH=0.830  ψ=2.45  φ=1.21  ✗
+  LPT Rotor 7 tip: U=279.1m/s  M1r=0.655  ✓ subsonic tip
+  LPT Rotor 7: DF=0.608  DeH=0.865  ψ=2.36  φ=1.25  ✗
+  Aero check: FAILURES FOUND ✗
+════════════════════════════════════════════════════════
+  ✗ Aero check failed — adjusting blade loading...
+
+▀▀▀▀▀ GLOBAL ITERATION 7 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Iter 0] Thrust=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=35.8  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.531  ε_cool=0.0680  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=796.1K  Pt=1301.6kPa  ṁ=NaNkg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1249.5kPa  ṁ=NaNkg/s  γ=1.255  f=0.03770
+  S5 [LPT exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.287  f=0.03770
+  S8 [Core nozzle exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.303  f=0.03770
+  S13 [Bypass exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=391.7K  Pt=140.8kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1405.0K  Pt=393.3kPa  ṁ=NaNkg/s  γ=1.264  f=0.03770
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN·s)
+  Thermal η:         NaN%
+  Propulsive η:      NaN%
+  Overall η:         NaN%
+  Specific Thrust:   NaN N·s/kg
+  Core ṁ:            NaN kg/s
+  Bypass ṁ:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ε=0.0658  ṁ_cool=NaN kg/s
+  HPT mixed T45:     1699.9 K
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+  Fan Rotor: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.550  ΔT=44.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=22.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=23.8K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=25.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=27.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=32.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=34.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=37.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=40.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=44.0K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=47.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=51.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=55.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=60.3K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  HPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-345.0K  DeHaller=NaN  ψ=NaN  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=1 LPT=3
+  Engine length: 1567 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  Fan Rotor: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 5 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 5: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 6 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 6: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 7 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 7: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 8 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 8: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 9 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 9: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  Aero check: ALL PASSED ✓
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3B: COMBUSTOR DESIGN
+════════════════════════════════════════════════════════
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.084  ✓
+  Combustion η: NaN  ✗ FAIL
+  NOx EI: NaN g/kg  ✗ CAEP/8 FAIL
+  CO EI:  NaN g/kg
+  Liner: Hastelloy X + TBC
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 4A: THERMOSTRUCTURAL ANALYSIS
+════════════════════════════════════════════════════════
+  Fan Rotor: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=9  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=10  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=13  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=14  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=15  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=16  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 5: σ_cent=NaN  σ_bend=NaN  σ_th=17  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 6: σ_cent=NaN  σ_bend=NaN  σ_th=18  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 7: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 8: σ_cent=NaN  σ_bend=NaN  σ_th=21  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 9: σ_cent=NaN  σ_bend=NaN  σ_th=60  σ_VM=NaNMPa  σ_y=800  SF=NaN  Creep=NaNh  ✗
+  HPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=171  σ_VM=NaNMPa  σ_y=150  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=166  σ_VM=NaNMPa  σ_y=200  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=178  σ_VM=NaNMPa  σ_y=500  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=67  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+════════════════════════════════════════════════════════
+  ✗ Structural fail on Fan Rotor (SF=NaN)
+    Auto-correcting: reducing RPM or upgrading material...
+
+▀▀▀▀▀ GLOBAL ITERATION 8 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Iter 0] Thrust=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=35.8  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.531  ε_cool=0.0680  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=796.1K  Pt=1301.6kPa  ṁ=NaNkg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1249.5kPa  ṁ=NaNkg/s  γ=1.255  f=0.03770
+  S5 [LPT exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.287  f=0.03770
+  S8 [Core nozzle exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.303  f=0.03770
+  S13 [Bypass exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=391.7K  Pt=140.8kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1405.0K  Pt=393.3kPa  ṁ=NaNkg/s  γ=1.264  f=0.03770
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN·s)
+  Thermal η:         NaN%
+  Propulsive η:      NaN%
+  Overall η:         NaN%
+  Specific Thrust:   NaN N·s/kg
+  Core ṁ:            NaN kg/s
+  Bypass ṁ:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ε=0.0658  ṁ_cool=NaN kg/s
+  HPT mixed T45:     1699.9 K
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+  Fan Rotor: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.550  ΔT=44.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=22.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=23.8K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=25.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=27.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=32.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=34.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=37.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=40.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=44.0K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=47.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=51.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=55.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=60.3K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  HPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-345.0K  DeHaller=NaN  ψ=NaN  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=1 LPT=3
+  Engine length: 1567 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  Fan Rotor: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 5 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 5: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 6 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 6: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 7 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 7: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 8 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 8: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 9 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 9: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  Aero check: ALL PASSED ✓
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3B: COMBUSTOR DESIGN
+════════════════════════════════════════════════════════
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.084  ✓
+  Combustion η: NaN  ✗ FAIL
+  NOx EI: NaN g/kg  ✗ CAEP/8 FAIL
+  CO EI:  NaN g/kg
+  Liner: Hastelloy X + TBC
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 4A: THERMOSTRUCTURAL ANALYSIS
+════════════════════════════════════════════════════════
+  Fan Rotor: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=9  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=10  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=13  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=14  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=15  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=16  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 5: σ_cent=NaN  σ_bend=NaN  σ_th=17  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 6: σ_cent=NaN  σ_bend=NaN  σ_th=18  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 7: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 8: σ_cent=NaN  σ_bend=NaN  σ_th=21  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 9: σ_cent=NaN  σ_bend=NaN  σ_th=60  σ_VM=NaNMPa  σ_y=800  SF=NaN  Creep=NaNh  ✗
+  HPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=171  σ_VM=NaNMPa  σ_y=150  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=166  σ_VM=NaNMPa  σ_y=200  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=178  σ_VM=NaNMPa  σ_y=500  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=67  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+════════════════════════════════════════════════════════
+  ✗ Structural fail on Fan Rotor (SF=NaN)
+    Auto-correcting: reducing RPM or upgrading material...
+
+▀▀▀▀▀ GLOBAL ITERATION 9 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Iter 0] Thrust=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=35.8  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.531  ε_cool=0.0680  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=796.1K  Pt=1301.6kPa  ṁ=NaNkg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1249.5kPa  ṁ=NaNkg/s  γ=1.255  f=0.03770
+  S5 [LPT exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.287  f=0.03770
+  S8 [Core nozzle exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.303  f=0.03770
+  S13 [Bypass exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=391.7K  Pt=140.8kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1405.0K  Pt=393.3kPa  ṁ=NaNkg/s  γ=1.264  f=0.03770
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN·s)
+  Thermal η:         NaN%
+  Propulsive η:      NaN%
+  Overall η:         NaN%
+  Specific Thrust:   NaN N·s/kg
+  Core ṁ:            NaN kg/s
+  Bypass ṁ:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ε=0.0658  ṁ_cool=NaN kg/s
+  HPT mixed T45:     1699.9 K
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+  Fan Rotor: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.550  ΔT=44.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=22.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=23.8K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=25.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=27.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=32.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=34.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=37.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=40.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=44.0K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=47.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=51.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=55.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=60.3K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  HPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-345.0K  DeHaller=NaN  ψ=NaN  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=1 LPT=3
+  Engine length: 1567 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  Fan Rotor: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 5 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 5: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 6 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 6: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 7 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 7: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 8 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 8: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 9 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 9: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  Aero check: ALL PASSED ✓
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3B: COMBUSTOR DESIGN
+════════════════════════════════════════════════════════
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.084  ✓
+  Combustion η: NaN  ✗ FAIL
+  NOx EI: NaN g/kg  ✗ CAEP/8 FAIL
+  CO EI:  NaN g/kg
+  Liner: Hastelloy X + TBC
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 4A: THERMOSTRUCTURAL ANALYSIS
+════════════════════════════════════════════════════════
+  Fan Rotor: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=9  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=10  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=13  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=14  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=15  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=16  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 5: σ_cent=NaN  σ_bend=NaN  σ_th=17  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 6: σ_cent=NaN  σ_bend=NaN  σ_th=18  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 7: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 8: σ_cent=NaN  σ_bend=NaN  σ_th=21  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 9: σ_cent=NaN  σ_bend=NaN  σ_th=60  σ_VM=NaNMPa  σ_y=800  SF=NaN  Creep=NaNh  ✗
+  HPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=171  σ_VM=NaNMPa  σ_y=150  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=166  σ_VM=NaNMPa  σ_y=200  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=178  σ_VM=NaNMPa  σ_y=500  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=67  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+════════════════════════════════════════════════════════
+  ✗ Structural fail on Fan Rotor (SF=NaN)
+    Auto-correcting: reducing RPM or upgrading material...
+
+▀▀▀▀▀ GLOBAL ITERATION 10 ▀▀▀▀▀
+
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Iter 0] Thrust=150000N  TSFC=NaN  T4=1750K  BPR=15.0  OPR=35.8  Valid=True
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.531  ε_cool=0.0680  T45_mix=1698K
+  [Cooling] T_gas_rel=1488K  T_metal=1250K  η_cool=0.523  ε_cool=0.0658  T45_mix=1700K
+════════════════════════════════════════════════════════
+  BRAYTON CYCLE SOLUTION
+════════════════════════════════════════════════════════
+  S0 [Freestream]: Tt=248.2K  Pt=37.1kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S2 [Fan face]: Tt=248.2K  Pt=36.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S3 [HPC exit]: Tt=796.1K  Pt=1301.6kPa  ṁ=NaNkg/s  γ=1.390  f=0.00000
+  S4 [Combustor exit (T4)]: Tt=1750.0K  Pt=1249.5kPa  ṁ=NaNkg/s  γ=1.255  f=0.03770
+  S5 [LPT exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.287  f=0.03770
+  S8 [Core nozzle exit]: Tt=787.8K  Pt=22.4kPa  ṁ=NaNkg/s  γ=1.303  f=0.03770
+  S13 [Bypass exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S18 [Bypass nozzle exit]: Tt=292.9K  Pt=56.3kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S25 [LPC exit]: Tt=391.7K  Pt=140.8kPa  ṁ=NaNkg/s  γ=1.400  f=0.00000
+  S45 [HPT exit]: Tt=1405.0K  Pt=393.3kPa  ṁ=NaNkg/s  γ=1.264  f=0.03770
+────────────────────────────────────────────────────────
+  Net Thrust:        150000 N (33723 lbf)
+  TSFC:              NaN g/(kN·s)
+  Thermal η:         NaN%
+  Propulsive η:      NaN%
+  Overall η:         NaN%
+  Specific Thrust:   NaN N·s/kg
+  Core ṁ:            NaN kg/s
+  Bypass ṁ:          NaN kg/s
+  Fuel flow:         NaN kg/s
+  Fan diameter:      NaN mm
+  Core diameter:     NaN mm
+  HPT coolant frac:  ε=0.0658  ṁ_cool=NaN kg/s
+  HPT mixed T45:     1699.9 K
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 2: FLOW PATH & BLADE GEOMETRY
+════════════════════════════════════════════════════════
+  LP spool: NaN RPM  |  HP spool: NaN RPM
+  Fan Rotor: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.550  ΔT=44.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=22.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=23.8K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=25.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  LPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.257  ΔT=27.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=32.1K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=34.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=37.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 4: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=40.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 5: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=44.0K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 6: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=47.6K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 7: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=51.5K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 8: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=55.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+  HPC Rotor 9: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=1.280  ΔT=60.3K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  HPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-345.0K  DeHaller=NaN  ψ=NaN  mat=CMSX-4 + TBC
+  LPT Rotor 1: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 2: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Inconel 718
+  LPT Rotor 3: r_hub=NaNmm  r_tip=NaNmm  N_blades=13  PR=0.000  ΔT=-205.7K  DeHaller=NaN  ψ=NaN  mat=Ti-6Al-4V
+────────────────────────────────────────────────────────
+  Total stages: Fan=1 LPC=4 HPC=9 HPT=1 LPT=3
+  Engine length: 1567 mm
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3A: AERODYNAMIC VALIDATION
+════════════════════════════════════════════════════════
+  Fan Rotor tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  Fan Rotor: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 4 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 4: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 5 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 5: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 6 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 6: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 7 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 7: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 8 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 8: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPC Rotor 9 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPC Rotor 9: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  HPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  HPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 1 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 1: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 2 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 2: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  LPT Rotor 3 tip: U=NaNm/s  M1r=NaN  ✓ subsonic tip
+  LPT Rotor 3: DF=NaN  DeH=NaN  ψ=NaN  φ=NaN  ✗
+  Aero check: ALL PASSED ✓
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 3B: COMBUSTOR DESIGN
+════════════════════════════════════════════════════════
+  Combustor L=NaNmm  R_out=NaNmm
+  Injectors: NaN
+  Pattern Factor: 0.084  ✓
+  Combustion η: NaN  ✗ FAIL
+  NOx EI: NaN g/kg  ✗ CAEP/8 FAIL
+  CO EI:  NaN g/kg
+  Liner: Hastelloy X + TBC
+════════════════════════════════════════════════════════
+════════════════════════════════════════════════════════
+  GATE 4A: THERMOSTRUCTURAL ANALYSIS
+════════════════════════════════════════════════════════
+  Fan Rotor: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=9  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=10  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  LPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=11  σ_VM=NaNMPa  σ_y=880  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=13  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=14  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=15  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 4: σ_cent=NaN  σ_bend=NaN  σ_th=16  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 5: σ_cent=NaN  σ_bend=NaN  σ_th=17  σ_VM=NaNMPa  σ_y=700  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 6: σ_cent=NaN  σ_bend=NaN  σ_th=18  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 7: σ_cent=NaN  σ_bend=NaN  σ_th=19  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 8: σ_cent=NaN  σ_bend=NaN  σ_th=21  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+  HPC Rotor 9: σ_cent=NaN  σ_bend=NaN  σ_th=60  σ_VM=NaNMPa  σ_y=800  SF=NaN  Creep=NaNh  ✗
+  HPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=171  σ_VM=NaNMPa  σ_y=150  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 1: σ_cent=NaN  σ_bend=NaN  σ_th=166  σ_VM=NaNMPa  σ_y=200  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 2: σ_cent=NaN  σ_bend=NaN  σ_th=178  σ_VM=NaNMPa  σ_y=500  SF=NaN  Creep=NaNh  ✗
+  LPT Rotor 3: σ_cent=NaN  σ_bend=NaN  σ_th=67  σ_VM=NaNMPa  σ_y=400  SF=NaN  Creep=NaNh  ✗
+════════════════════════════════════════════════════════
+  ✗ Structural fail on Fan Rotor (SF=NaN)
+    Auto-correcting: reducing RPM or upgrading material...
+  ⚠ Max iterations reached — returning best available
